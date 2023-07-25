@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "hrbot-web-app/1.0.0": {
+        "dependencies": {
+          "OpenAI-DotNet": "6.3.1"
+        },
+        "runtime": {
+          "hrbot-web-app.dll": {}
+        }
+      },
+      "OpenAI-DotNet/6.3.1": {
+        "runtime": {
+          "lib/net6.0/OpenAI-DotNet.dll": {
+            "assemblyVersion": "6.3.1.0",
+            "fileVersion": "6.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "hrbot-web-app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenAI-DotNet/6.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mKFWL+vivFN+b+lbbFDTHvVUXDS4N+CljFCl8M9DDX0Dupe3mDXal6XW6J51cHwziiLhyhBASQ72jXJEimI69g==",
+      "path": "openai-dotnet/6.3.1",
+      "hashPath": "openai-dotnet.6.3.1.nupkg.sha512"
+    }
+  }
+}

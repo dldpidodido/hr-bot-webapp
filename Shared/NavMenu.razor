@@ -1,0 +1,49 @@
+﻿<!-- NavMenu.razor -->
+
+@using hrbot_web_app.Pages
+@inject IJSRuntime jsRuntime
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <img src="/misc/cherry.png" style="width: 30px;">
+        <a class="navbar-brand nav-item-flex" href="">
+            <span>HRBot</span>
+        </a>
+    </div>
+</div>
+
+<div class="nav-menu-container "> <!-- Add a container for the navigation items -->
+    <div class="@NavMenuCssClass">
+        <nav class="flex-column">
+            <div class="nav-item px-3">
+                <ChatGPT /> <!-- Include the ChatBox component here -->
+            </div>
+        </nav>
+        <nav class="flex-column">
+            <div class="nav-item-flex px-3">
+                <MenuExtension /> <!-- Include the MenuExtension component here -->
+            </div>
+        </nav>
+        <nav class="flex-column">
+            <div class="nav-item-flex px-3">
+                <NearbyLocations /> <!-- Include the NearbyLocations component here -->
+            </div>
+        </nav>
+        <nav class="flex-column">
+            <div class="nav-item-flex px-3">
+                <Occupations /> <!-- Include the Occupations component here -->
+            </div>
+        </nav>
+        <nav class="flex-column">
+            <div class="nav-item-flex px-3">
+                <SiteMap /> <!-- Include the Occupations component here -->
+            </div>
+        </nav>
+    </div>
+</div>
+
+@code {
+    private bool collapseNavMenu = false; // Set to "false" to show the navigation menu by default
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+}

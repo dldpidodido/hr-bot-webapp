@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = hrbot_web_app
+build_property.RootNamespace = hrbot_web_app
+build_property.ProjectDir = F:\WebApp\hrbot-web-app\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\WebApp\hrbot-web-app
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/WebApp/hrbot-web-app/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApp/hrbot-web-app/Pages/ImageGenerator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW1hZ2VHZW5lcmF0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApp/hrbot-web-app/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApp/hrbot-web-app/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApp/hrbot-web-app/Pages/ChatGPT.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdEdQVC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-351j6dyoee
+
+[F:/WebApp/hrbot-web-app/Pages/MenuExtension.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUV4dGVuc2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ehav92a1i1
+
+[F:/WebApp/hrbot-web-app/Pages/NearbyLocations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmVhcmJ5TG9jYXRpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-dl4uaad1uh
+
+[F:/WebApp/hrbot-web-app/Pages/Occupations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2NjdXBhdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mhmao8oouu
+
+[F:/WebApp/hrbot-web-app/Pages/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-fzgsujbzc5
+
+[F:/WebApp/hrbot-web-app/Pages/SiteMap.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2l0ZU1hcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-f3n8q9xob2
+
+[F:/WebApp/hrbot-web-app/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fwcetftjex
+
+[F:/WebApp/hrbot-web-app/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yljsykpo51
+
+[F:/WebApp/hrbot-web-app/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApp/hrbot-web-app/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/WebApp/hrbot-web-app/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

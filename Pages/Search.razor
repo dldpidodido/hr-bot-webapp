@@ -1,0 +1,90 @@
+<link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+<style>
+    /* Add rounded corners to the input box and the dropdown menu */
+    .input-group .form-control,
+    .dropdown-menu {
+        border-radius: 10px; /* Adjust the value as needed */
+    }
+
+    .form-control
+    {
+        height: 39px;
+        width: 400px;
+        border: #f1f1f1;
+    }
+
+    /* Style the search icon */
+    .input-group-addon {
+        background-color: #f1f1f1;
+        border: none;
+        border-radius: 10px 0 0 10px; /* Adjust the value as needed */
+        width: 6.7%;
+        padding-left: 2.5%;
+        padding-top: 1.2%;
+    }
+
+    .container 
+    {
+        position: absolute;
+        padding-right: 30%;
+        padding-left: 10%;
+        width: 200%;
+    }
+
+    /* Style the search button */
+    .input-group-btn .btn {
+        border-radius: 0 10px 10px 0; /* Adjust the value as needed */
+        background-color: #f1f1f1;
+        height: 39px;
+    }
+
+    /* Style the dropdown menu items */
+    .dropdown-menu li a {
+        color: #333;
+    }
+
+    /* Add some padding to the dropdown menu */
+    .dropdown-menu {
+        padding: 00px;
+    }
+
+    .main-icon {
+        margin-right: 10px; /* Adjust the value as needed */
+    }
+
+    /* Adjust the size of the icons */
+    .main-icon i {
+        font-size: 24px; /* Adjust the value as needed */
+    }
+
+</style>
+
+<span class="main-icon"><i class="fas fa-user"></i></span> <!-- User icon -->
+<span class="main-icon"><i class="fas fa-globe"></i></span> <!-- Internet icon -->
+
+<div class="container">
+    
+    <div class="row">    
+        <div class="col-xs-8 col-xs-offset-2">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                      <span id="search_concept"><i class="fas fa-align-justify"></i> All</span>  <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                      <li><a href="#contains"> <i class="fas fa-envelope text-danger"></i> Email</a></li>
+                      <li><a href="#its_equal"> <i class="fas fa-music text-warning"></i> Music</a></li>
+                      <li><a href="#greather_than"> <i class="fas fa-user text-success"></i> Users</a></li>
+                      <li><a href="#less_than"><i class="fas fa-book text-primary"></i> Books </a></li>
+                      <li class="divider"></li>
+                      <li><a href="#all"> <i class="fas fa-picture text-info"></i> Pictures</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

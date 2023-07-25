@@ -1,0 +1,80 @@
+@page "/nearbylocations"
+
+<div class="main-menu-list">
+    <h5>Nearby Locations</h5>
+
+    @foreach (var location in GetVisibleLocations())
+    {
+        <div class="location-item hoverable">
+            <div class="location-icon">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
+            <div class="location-name">@location.Name</div>
+            <div class="location-number">@location.Number</div>
+        </div>
+    }
+
+    <div class="show-more-less-buttons hoverable-buttons">
+        @if (visibleLocationsCount < allLocations.Count)
+        {
+            <button @onclick="ShowMore">Show More</button>
+        }
+        else
+        {
+            <button @onclick="ShowLess">Show Less</button>
+        }
+    </div>
+</div>
+
+@code {
+    private int visibleLocationsCount = 5; // Number of locations to show initially
+    private List<LocationItem> allLocations; // Declare the field here
+
+    private class LocationItem
+    {
+        public string Name { get; set; }
+        public string Number { get; set; }
+    }
+
+    protected override void OnInitialized()
+    {
+        allLocations = GenerateAllLocations(); // Initialize the field in the OnInitialized method
+    }
+
+    private List<LocationItem> GenerateAllLocations()
+    {
+        return new List<LocationItem>
+        {
+            new LocationItem { Name = "Taytay", Number = "182" },
+            new LocationItem { Name = "Pasig", Number = "2,672" },
+            new LocationItem { Name = "Muntinlupa", Number = "1,076" },
+            new LocationItem { Name = "Caloocan", Number = "218" },
+            new LocationItem { Name = "Cavite City", Number = "1,006" },
+            new LocationItem { Name = "Biñan", Number = "228" },
+            new LocationItem { Name = "Noveleta", Number = "96" },
+            new LocationItem { Name = "Dasmariñas", Number = "151" },
+            new LocationItem { Name = "Calamba", Number = "93" },
+            new LocationItem { Name = "Lumban", Number = "162" },
+            // Add more locations here, if needed
+        };
+    }
+
+    private List<LocationItem> GetVisibleLocations()
+    {
+        return allLocations.Take(visibleLocationsCount).ToList();
+    }
+
+    private void ShowMore()
+    {
+        visibleLocationsCount += 5; // Increase the number of visible locations
+        if (visibleLocationsCount > allLocations.Count)
+        {
+            visibleLocationsCount = allLocations.Count;
+        }
+    }
+
+    private void ShowLess()
+    {
+        visibleLocationsCount = 5; // Show the initial number of locations
+    }
+}

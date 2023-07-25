@@ -1,0 +1,109 @@
+#chatpage {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
+    padding: 0px; /* Add some padding to the chat container */
+    background-color: #f2f2f2; /* Set background color */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+
+    /* Set height for PC view */
+    height: 440px; /* Adjust the height as per your preference for PC */
+}
+
+/* Styles for the chat container and its messages */
+#chatcontainer {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
+    padding: 0px; /* Add some padding to the chat container */
+    background-color: #f2f2f2; /* Set background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+
+    /* Set height for PC view */
+    height: 380px; /* Adjust the height as per your preference for PC */
+}
+
+#chatcontainer::-webkit-scrollbar {
+    /* Width of vertical scroll bar */
+    width: 8px;
+    /* Height of horizontal scroll bar */
+    height: 10px;
+}
+
+#chatcontainer::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+    #chatpage {
+        height: 200px; /* Adjust the height for mobile view */
+    }
+    #chatcontainer {
+        height: 140px; /* Adjust the height for mobile view */
+    }
+}
+
+/* Styles for user messages */
+.user-message {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Styles for the user message container */
+.user {
+    background: #0B93F6;
+    color: white;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+/* Styles for assistant messages */
+.chatgpt-message {
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* Styles for the assistant message container */
+.chatgpt {
+    background: #4CAF50;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Styles for the input container */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Styles for the input box */
+.input-container input {
+    flex: 1;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Styles for the "Ask Me !" button */
+.input-container button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}

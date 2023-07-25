@@ -1,0 +1,233 @@
+﻿@page "/"
+<style>
+/* Container for centering */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto; /* Add vertical scroll */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* Card styles */
+.card {
+  border-radius: 10px; /* Add rounded corners */
+  width: 100%; /* Adjust to fit the screen */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin: 5px 0; /* Add vertical margin for space between cards */
+}
+
+/* Card header styles */
+.card-header {
+  background-color: #f1f1f1;
+  padding-bottom: 10px;
+}
+
+/* Card body styles */
+.card-body {
+  padding: 15px;
+}
+
+/* Card title and location/time styles */
+.card-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-card-location-time {
+  display: flex;
+  align-items: center;
+}
+
+.job-card-location,
+.job-card-posted-date {
+  margin-left: 10px;
+}
+
+.jobs-container {
+display: flex;
+justify-content: space-between;
+}
+
+.jobs-actions {
+display: flex;
+align-items: center;
+}
+
+.analyze-all-button {
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 5px 10px;
+  }
+
+  .button-text {
+    color: #fff;
+  }
+
+
+
+</style>
+
+<div class="jobs-container">
+  <div class="jobs-header">
+    <h2>New jobs in Quezon City</h2>
+  </div>
+  <div class="jobs-actions">
+    <div class="analyze-all-button">
+      <span class="button-text">Analyze All</span>
+    </div>
+    <div class="menu-icon">
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+  </div>
+</div>
+
+<div class="card-container">
+  @foreach (var job in Jobs)
+  {
+    <div class="card bg-light mb-3 job-card-inner">
+      <div class="card-body job-card-info">
+        <div class="card-title-wrapper">
+          <a href="" class="card-title" target="_blank" rel="noopener noreferrer nofollow">@job.Title</a>
+          <div class="job-card-location-time">
+            <span class="job-card-location">@job.Location</span>
+            <span class="job-card-extra-divider">&nbsp;·&nbsp;</span>
+            <span class="job-card-posted-date">@job.Hours</span>
+          </div>
+        </div>
+        <div class="job-card-subtitle">
+          <div class="job-card-team-info">
+            <span>@job.CompanyName</span>
+            <span class="job-card-subtitle-divider">&nbsp;·</span>
+            <span class="job-card-short-desc"><span class="job-card-subtitle-divider">&nbsp;</span>@job.Description</span>
+          </div>
+        </div>
+      </div>
+      <div class="card-header">Job Description</div>
+    </div>
+  }
+</div>
+
+
+@code {
+  public class Job
+  {
+    public string Title { get; set; }
+    public string CompanyName { get; set; }
+    public string Description { get; set; }
+    public string Hours { get; set; }
+    public string Location { get; set; }
+  }
+
+  // List to store random jobs
+List<Job> Jobs = new List<Job>
+{
+    new Job
+    {
+        Title = "Senior Software Engineer",
+        CompanyName = "Tech Solutions Inc.",
+        Description = "We are looking for an experienced Senior Software Engineer to join our development team.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Marketing Specialist",
+        CompanyName = "Global Marketing Agency",
+        Description = "Join our marketing team to drive growth and brand awareness through creative campaigns.",
+        Hours = "Part-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Sales Representative",
+        CompanyName = "SalesPro Enterprises",
+        Description = "Seeking a motivated Sales Representative to expand our customer base and increase sales.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Financial Analyst",
+        CompanyName = "Capital Investments Ltd.",
+        Description = "Analyzing financial data and providing insights to support strategic decision-making.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Graphic Designer",
+        CompanyName = "Design Co.",
+        Description = "Create visually appealing designs for print and digital media.",
+        Hours = "Part-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Human Resources Manager",
+        CompanyName = "HR Solutions Corp.",
+        Description = "Oversee HR operations and implement talent management strategies.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Data Analyst",
+        CompanyName = "Data Insights Ltd.",
+        Description = "Analyze large datasets to identify trends and provide data-driven insights.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Customer Service Representative",
+        CompanyName = "Service Excellence Inc.",
+        Description = "Assist customers with inquiries and provide exceptional service.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Software Developer",
+        CompanyName = "Tech Innovations",
+        Description = "Develop and maintain software applications for our clients.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    },
+    new Job
+    {
+        Title = "Project Manager",
+        CompanyName = "Project Solutions Ltd.",
+        Description = "Lead and coordinate projects from initiation to completion.",
+        Hours = "Full-time",
+        Location = "Manila, Metro Manila"
+    }
+};
+  protected override void OnInitialized()
+  {
+    // Generate 10 random jobs
+    GenerateRandomJobs(10);
+  }
+
+  // Function to generate random jobs
+  private void GenerateRandomJobs(int count)
+  {
+    Random random = new Random();
+
+    for (int i = 0; i < count; i++)
+    {
+      Jobs.Add(new Job
+      {
+        Title = "Job Title " + (i + 1),
+        CompanyName = "Company " + (i + 1),
+        Description = "Job Description " + (i + 1),
+        Hours = random.Next(1, 48) + " hours ago",
+        Location = "Manila, Metro Manila"
+      });
+    }
+  }
+}

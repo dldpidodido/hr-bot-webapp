@@ -1,0 +1,67 @@
+/* Custom styling for the Nearby Locations component */
+.main-menu-list[b-dl4uaad1uh] {
+    border-top: 1px solid #9b9b9b; /* Add a top border to create the top line */
+    border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
+    padding: 10px; /* Add some padding to create spacing between the lines and content */
+    padding-top: 25px;
+}
+
+.location-item[b-dl4uaad1uh] {
+    /* ... (existing styles for the location items, if any) */
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Make the location items hoverable */
+    padding: 6px; /* Add some spacing between each location item */
+}
+
+.hoverable:hover[b-dl4uaad1uh],
+.hoverable-buttons:hover[b-dl4uaad1uh] {
+    /* Add styles for the hoverable elements when hovered */
+    background-color: #f0f0f0; /* Example background color change when hovered */
+    background-color: #f0f0f0; /* Example background color change when hovered */
+    border-radius: 10px; /* Add this line to create cornered hover background for buttons */
+
+}
+
+.location-icon[b-dl4uaad1uh] {
+    /* ... (existing styles for the location icon, if any) */
+    font-size: 22px; /* Set the font size to change the icon size */
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.location-name[b-dl4uaad1uh] {
+    /* ... (existing styles for the location name, if any) */
+    flex: 1; /* This will make the location name take up the available space */
+    font-style: bold;
+}
+
+.location-number[b-dl4uaad1uh] {
+    /* ... (existing styles for the location number, if any) */
+    padding-right: 20px;
+}
+
+.show-more-less-buttons[b-dl4uaad1uh] {
+    /* Add any additional styles for the button container if needed */
+    margin-top: 10px; /* Add some spacing between the location items and buttons */
+    padding: 6px; /* Add some spacing between each location item */
+
+}
+
+.hoverable-buttons button[b-dl4uaad1uh] {
+    /* Add styles for the buttons with the hoverable-buttons class */
+    /* These styles will be applied when the buttons are hovered */
+    background-color: transparent; /* Example background color change when hovered */
+    cursor: pointer;
+    padding: 5px 10px;
+    padding-left: 45px;
+    border: none;
+    align-items: center;
+}
+
+/* Styles for the "Show More" and "Show Less" buttons */
+button[b-dl4uaad1uh] {
+    /* ... (existing styles for the buttons, if any) */
+    margin-right: 10px; /* Add spacing between the buttons if needed */
+
+}

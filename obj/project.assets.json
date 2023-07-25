@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "OpenAI-DotNet/6.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/OpenAI-DotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/OpenAI-DotNet.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "OpenAI-DotNet/6.3.1": {
+      "sha512": "mKFWL+vivFN+b+lbbFDTHvVUXDS4N+CljFCl8M9DDX0Dupe3mDXal6XW6J51cHwziiLhyhBASQ72jXJEimI69g==",
+      "type": "package",
+      "path": "openai-dotnet/6.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/OpenAI-DotNet-Icon.png",
+        "README.md",
+        "lib/net6.0/OpenAI-DotNet.dll",
+        "openai-dotnet.6.3.1.nupkg.sha512",
+        "openai-dotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "OpenAI-DotNet >= 6.3.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\TOSHIBA\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\WebApp\\hrbot-web-app\\hrbot-web-app.csproj",
+      "projectName": "hrbot-web-app",
+      "projectPath": "F:\\WebApp\\hrbot-web-app\\hrbot-web-app.csproj",
+      "packagesPath": "C:\\Users\\TOSHIBA\\.nuget\\packages\\",
+      "outputPath": "F:\\WebApp\\hrbot-web-app\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\TOSHIBA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "OpenAI-DotNet": {
+            "target": "Package",
+            "version": "[6.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.109\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

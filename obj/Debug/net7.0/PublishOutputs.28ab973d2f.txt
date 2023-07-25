@@ -1,0 +1,8 @@
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\hrbot-web-app.exe
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\appsettings.Development.json
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\appsettings.json
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\hrbot-web-app.dll
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\hrbot-web-app.deps.json
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\hrbot-web-app.runtimeconfig.json
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\hrbot-web-app.pdb
+F:\WebApp\hrbot-web-app\bin\Debug\net7.0\publish\OpenAI-DotNet.dll
