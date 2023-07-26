@@ -1,0 +1,56 @@
+ /* Add rounded corners to the input box and the dropdown menu */
+ .input-group .form-control[b-fzgsujbzc5],
+ .dropdown-menu[b-fzgsujbzc5] {
+     border-radius: 10px; /* Adjust the value as needed */
+ }
+
+ .form-control[b-fzgsujbzc5]
+ {
+     height: 39px;
+     width: 400px;
+     border: #f1f1f1;
+ }
+
+ /* Style the search icon */
+ .search-input-group-addon[b-fzgsujbzc5] {
+     background-color: #f1f1f1;
+     border: none;
+     border-radius: 10px 0 0 10px; /* Adjust the value as needed */
+     width: 6.7%;
+     padding-left: 2.5%;
+     padding-top: 1.2%;
+ }
+
+ .container[b-fzgsujbzc5] 
+ {
+     position: absolute;
+     padding-right: 30%;
+     padding-left: 10%;
+     width: 200%;
+ }
+
+ /* Style the search button */
+ .search-input-group-btn .btn[b-fzgsujbzc5] {
+     border-radius: 0 10px 10px 0; /* Adjust the value as needed */
+     background-color: #f1f1f1;
+     height: 39px;
+ }
+
+ /* Style the dropdown menu items */
+ .search-dropdown-menu li a[b-fzgsujbzc5] {
+     color: #333;
+ }
+
+ /* Add some padding to the dropdown menu */
+ .dropdown-menu[b-fzgsujbzc5] {
+     padding: 00px;
+ }
+
+ .nav-main-icon[b-fzgsujbzc5] {
+     margin-right: 10px; /* Adjust the value as needed */
+ }
+
+ /* Adjust the size of the icons */
+ .nav-main-icon i[b-fzgsujbzc5] {
+     font-size: 24px; /* Adjust the value as needed */
+ }
