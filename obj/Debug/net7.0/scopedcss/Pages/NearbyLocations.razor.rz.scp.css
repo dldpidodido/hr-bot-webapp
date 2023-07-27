@@ -1,12 +1,12 @@
 /* Custom styling for the Nearby Locations component */
-.main-menu-list[b-dl4uaad1uh] {
+.main-menu-list[b-gj73hgc7ou] {
     border-top: 1px solid #9b9b9b; /* Add a top border to create the top line */
     border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
     padding: 10px; /* Add some padding to create spacing between the lines and content */
     padding-top: 25px;
 }
 
-.location-item[b-dl4uaad1uh] {
+.location-item[b-gj73hgc7ou] {
     /* ... (existing styles for the location items, if any) */
     display: flex;
     align-items: center;
@@ -14,8 +14,8 @@
     padding: 6px; /* Add some spacing between each location item */
 }
 
-.hoverable:hover[b-dl4uaad1uh],
-.hoverable-buttons:hover[b-dl4uaad1uh] {
+.hoverable:hover[b-gj73hgc7ou],
+.hoverable-buttons:hover[b-gj73hgc7ou] {
     /* Add styles for the hoverable elements when hovered */
     background-color: #f0f0f0; /* Example background color change when hovered */
     background-color: #f0f0f0; /* Example background color change when hovered */
@@ -23,32 +23,32 @@
 
 }
 
-.location-icon[b-dl4uaad1uh] {
+.location-icon[b-gj73hgc7ou] {
     /* ... (existing styles for the location icon, if any) */
     font-size: 22px; /* Set the font size to change the icon size */
     padding-right: 20px;
     padding-left: 10px;
 }
 
-.location-name[b-dl4uaad1uh] {
+.location-name[b-gj73hgc7ou] {
     /* ... (existing styles for the location name, if any) */
     flex: 1; /* This will make the location name take up the available space */
     font-style: bold;
 }
 
-.location-number[b-dl4uaad1uh] {
+.location-number[b-gj73hgc7ou] {
     /* ... (existing styles for the location number, if any) */
     padding-right: 20px;
 }
 
-.show-more-less-buttons[b-dl4uaad1uh] {
+.show-more-less-buttons[b-gj73hgc7ou] {
     /* Add any additional styles for the button container if needed */
     margin-top: 10px; /* Add some spacing between the location items and buttons */
     padding: 6px; /* Add some spacing between each location item */
 
 }
 
-.hoverable-buttons button[b-dl4uaad1uh] {
+.hoverable-buttons button[b-gj73hgc7ou] {
     /* Add styles for the buttons with the hoverable-buttons class */
     /* These styles will be applied when the buttons are hovered */
     background-color: transparent; /* Example background color change when hovered */
@@ -60,7 +60,7 @@
 }
 
 /* Styles for the "Show More" and "Show Less" buttons */
-button[b-dl4uaad1uh] {
+button[b-gj73hgc7ou] {
     /* ... (existing styles for the buttons, if any) */
     margin-right: 10px; /* Add spacing between the buttons if needed */
 

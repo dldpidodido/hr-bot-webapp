@@ -38,19 +38,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TOSHIBA\\.nuget\\packages\\": {}
+    "/Users/hypernationbuildpc/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WebApp\\hrbot-web-app\\hrbot-web-app.csproj",
+      "projectUniqueName": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/hrbot-web-app.csproj",
       "projectName": "hrbot-web-app",
-      "projectPath": "F:\\WebApp\\hrbot-web-app\\hrbot-web-app.csproj",
-      "packagesPath": "C:\\Users\\TOSHIBA\\.nuget\\packages\\",
-      "outputPath": "F:\\WebApp\\hrbot-web-app\\obj\\",
+      "projectPath": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/hrbot-web-app.csproj",
+      "packagesPath": "/Users/hypernationbuildpc/.nuget/packages/",
+      "outputPath": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TOSHIBA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/hypernationbuildpc/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -98,7 +98,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.109\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,4 @@
-.occupations-circle-white[b-mhmao8oouu] {
+.occupations-circle-white[b-7nalf5az38] {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -8,13 +8,13 @@
 }
 
 /* Custom styling for the Nearby occupationss component */
-.occupations-main-menu-list[b-mhmao8oouu] {
+.occupations-main-menu-list[b-7nalf5az38] {
   border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
   padding: 10px; /* Add some padding to create spacing between the lines and content */
   padding-bottom: 10px;
 }
 
-.occupations-item[b-mhmao8oouu] {
+.occupations-item[b-7nalf5az38] {
   /* ... (existing styles for the occupations items, if any) */
   display: flex;
   align-items: center;
@@ -23,8 +23,8 @@
   padding-left: 0%;
 }
 
-.hoverable:hover[b-mhmao8oouu],
-.hoverable-buttons:hover[b-mhmao8oouu] {
+.hoverable:hover[b-7nalf5az38],
+.hoverable-buttons:hover[b-7nalf5az38] {
   /* Add styles for the hoverable elements when hovered */
   background-color: #f0f0f0; /* Example background color change when hovered */
   background-color: #f0f0f0; /* Example background color change when hovered */
@@ -32,27 +32,27 @@
   
 }
 
-.occupation-icon[b-mhmao8oouu] {
+.occupation-icon[b-7nalf5az38] {
   /* ... (existing styles for the occupations icon, if any) */
   font-size: 22px; /* Set the font size to change the icon size */
   padding-right: 20px;
   padding-left: 10px;
 }
 
-.occupations-name[b-mhmao8oouu] {
+.occupations-name[b-7nalf5az38] {
   /* ... (existing styles for the occupations name, if any) */
   flex: 1; /* This will make the occupations name take up the available space */
   font-style: bold;
 }
 
-.show-more-less-buttons[b-mhmao8oouu] {
+.show-more-less-buttons[b-7nalf5az38] {
   /* Add any additional styles for the button container if needed */
   margin-top: 10px; /* Add some spacing between the occupations items and buttons */
   padding: 6px; /* Add some spacing between each occupations item */
 
 }
 
-.hoverable-buttons button[b-mhmao8oouu] {
+.hoverable-buttons button[b-7nalf5az38] {
   /* Add styles for the buttons with the hoverable-buttons class */
   /* These styles will be applied when the buttons are hovered */
   background-color: transparent; /* Example background color change when hovered */
@@ -64,7 +64,7 @@
 }
 
 /* Styles for the "Show More" and "Show Less" buttons */
-button[b-mhmao8oouu] {
+button[b-7nalf5az38] {
   /* ... (existing styles for the buttons, if any) */
   margin-left: -5px; /* Add spacing between the buttons if needed */
   padding: 6px; /* Add some spacing between each location item */

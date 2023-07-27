@@ -1,10 +1,10 @@
  /* Add rounded corners to the input box and the dropdown menu */
- .input-group .form-control[b-fzgsujbzc5],
- .dropdown-menu[b-fzgsujbzc5] {
+ .input-group .form-control[b-ak4tjqocdq],
+ .dropdown-menu[b-ak4tjqocdq] {
      border-radius: 10px; /* Adjust the value as needed */
  }
 
- .form-control[b-fzgsujbzc5]
+ .form-control[b-ak4tjqocdq]
  {
      height: 39px;
      width: 400px;
@@ -12,7 +12,7 @@
  }
 
  /* Style the search icon */
- .search-input-group-addon[b-fzgsujbzc5] {
+ .search-input-group-addon[b-ak4tjqocdq] {
      background-color: #f1f1f1;
      border: none;
      border-radius: 10px 0 0 10px; /* Adjust the value as needed */
@@ -21,7 +21,7 @@
      padding-top: 1.2%;
  }
 
- .container[b-fzgsujbzc5] 
+ .container[b-ak4tjqocdq] 
  {
      position: absolute;
      padding-right: 30%;
@@ -30,27 +30,27 @@
  }
 
  /* Style the search button */
- .search-input-group-btn .btn[b-fzgsujbzc5] {
+ .search-input-group-btn .btn[b-ak4tjqocdq] {
      border-radius: 0 10px 10px 0; /* Adjust the value as needed */
      background-color: #f1f1f1;
      height: 39px;
  }
 
  /* Style the dropdown menu items */
- .search-dropdown-menu li a[b-fzgsujbzc5] {
+ .search-dropdown-menu li a[b-ak4tjqocdq] {
      color: #333;
  }
 
  /* Add some padding to the dropdown menu */
- .dropdown-menu[b-fzgsujbzc5] {
+ .dropdown-menu[b-ak4tjqocdq] {
      padding: 00px;
  }
 
- .nav-main-icon[b-fzgsujbzc5] {
+ .nav-main-icon[b-ak4tjqocdq] {
      margin-right: 10px; /* Adjust the value as needed */
  }
 
  /* Adjust the size of the icons */
- .nav-main-icon i[b-fzgsujbzc5] {
+ .nav-main-icon i[b-ak4tjqocdq] {
      font-size: 24px; /* Adjust the value as needed */
  }

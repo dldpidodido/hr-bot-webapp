@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dOCQnhD7WvJ1fbDv1bh45ZxlkLPRhuw/tMSapf6JOr82KlRkieqGBZVz9Qfz2qQCWSmgeQN5lLC1DJa6GgVXZw==",
+  "dgSpecHash": "68CgIazSQowE4dFnrYpM8d0v95ihsJXckHHUnpAlOEO3w5vHI8ZNgd+zt4lATS9F0cwv0xTkN0uTsI/LtQ/P3Q==",
   "success": true,
-  "projectFilePath": "F:\\WebApp\\hrbot-web-app\\hrbot-web-app.csproj",
+  "projectFilePath": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/hrbot-web-app.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\TOSHIBA\\.nuget\\packages\\openai-dotnet\\6.3.1\\openai-dotnet.6.3.1.nupkg.sha512"
+    "/Users/hypernationbuildpc/.nuget/packages/openai-dotnet/6.3.1/openai-dotnet.6.3.1.nupkg.sha512"
   ],
   "logs": []
 }

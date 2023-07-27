@@ -1,5 +1,5 @@
 /* _content/hrbot-web-app/Pages/ChatGPT.razor.rz.scp.css */
-#chatpage[b-351j6dyoee] {
+#chatpage[b-7vyimieta0] {
     display: flex;
     flex-direction: column;
     overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
@@ -13,7 +13,7 @@
 }
 
 /* Styles for the chat container and its messages */
-#chatcontainer[b-351j6dyoee] {
+#chatcontainer[b-7vyimieta0] {
     display: flex;
     flex-direction: column;
     overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
@@ -25,53 +25,55 @@
     height: 380px; /* Adjust the height as per your preference for PC */
 }
 
-#chatcontainer[b-351j6dyoee]::-webkit-scrollbar {
+#chatcontainer[b-7vyimieta0]::-webkit-scrollbar {
     /* Width of vertical scroll bar */
     width: 8px;
     /* Height of horizontal scroll bar */
     height: 10px;
 }
 
-#chatcontainer[b-351j6dyoee]::-webkit-scrollbar-thumb {
+#chatcontainer[b-7vyimieta0]::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background: #c2c9d2;
 }
 
     
-.chat-analyzed-button[b-351j6dyoee] {
+.chat-analyzed-button[b-7vyimieta0] {
     margin-top: 10px;
     margin-left: 190px;
+    margin-bottom: 10px;
     border-radius: 20px;
     background-color: #ccc;
     padding: 5px 30px;
     text-align: center;
     width: 210px;
     color: white;
+    border: none;
 
 }
 
 /* Media query for mobile view */
 @media (max-width: 767px) {
-    #chatpage[b-351j6dyoee] {
+    #chatpage[b-7vyimieta0] {
         height: 200px; /* Adjust the height for mobile view */
     }
-    #chatcontainer[b-351j6dyoee] {
+    #chatcontainer[b-7vyimieta0] {
         height: 140px; /* Adjust the height for mobile view */
     }
-    .chat-analyzed-button[b-351j6dyoee]{
+    .chat-analyzed-button[b-7vyimieta0]{
         display: none;
     }
 }
 
 /* Styles for user messages */
-.user-message[b-351j6dyoee] {
+.user-message[b-7vyimieta0] {
     text-align: left;
     margin-top: 10px;
     margin-left: 10px;
 }
 
 /* Styles for the user message container */
-.user[b-351j6dyoee] {
+.user[b-7vyimieta0] {
     background: #0B93F6;
     color: white;
     margin-right: 50px;
@@ -83,13 +85,13 @@
 }
 
 /* Styles for assistant messages */
-.chatgpt-message[b-351j6dyoee] {
+.chatgpt-message[b-7vyimieta0] {
     text-align: right;
     margin-right: 10px;
 }
 
 /* Styles for the assistant message container */
-.chatgpt[b-351j6dyoee] {
+.chatgpt[b-7vyimieta0] {
     background: #4CAF50;
     color: white;
     margin-left: 50px;
@@ -102,7 +104,7 @@
 }
 
 /* Styles for the input container */
-.input-container[b-351j6dyoee] {
+.input-container[b-7vyimieta0] {
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -110,7 +112,7 @@
 }
 
 /* Styles for the input box */
-.input-container input[b-351j6dyoee] {
+.input-container input[b-7vyimieta0] {
     flex: 1;
     border-radius: 10px;
     padding: 8px;
@@ -118,14 +120,14 @@
 }
 
 /* Styles for the "Ask Me !" button */
-.input-container button[b-351j6dyoee] {
+.input-container button[b-7vyimieta0] {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
     font-size: 14px;
 }
 /* _content/hrbot-web-app/Pages/MenuExtension.razor.rz.scp.css */
-.main-menu-extension-page[b-ehav92a1i1] {
+.main-menu-extension-page[b-2r6oodfzi5] {
     display: flex;
     flex-direction: column;
     overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
@@ -140,7 +142,7 @@
 
 
 
-.menu-extension-content[b-ehav92a1i1] {
+.menu-extension-content[b-2r6oodfzi5] {
     /* Apply styles to the content inside the menu container */
     padding: 10px;
     border-radius: 20px; /* Add border radius to make it a rounded button */
@@ -153,7 +155,7 @@
 
 @media (max-width: 767px) {
     /* For screens up to 767px (mobile) */
-    .main-menu-extension-page[b-ehav92a1i1] {
+    .main-menu-extension-page[b-2r6oodfzi5] {
         display: none;
         padding-bottom: 0px; /* Add some padding to the menu container */
 
@@ -163,14 +165,14 @@
 }
 /* _content/hrbot-web-app/Pages/NearbyLocations.razor.rz.scp.css */
 /* Custom styling for the Nearby Locations component */
-.main-menu-list[b-dl4uaad1uh] {
+.main-menu-list[b-gj73hgc7ou] {
     border-top: 1px solid #9b9b9b; /* Add a top border to create the top line */
     border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
     padding: 10px; /* Add some padding to create spacing between the lines and content */
     padding-top: 25px;
 }
 
-.location-item[b-dl4uaad1uh] {
+.location-item[b-gj73hgc7ou] {
     /* ... (existing styles for the location items, if any) */
     display: flex;
     align-items: center;
@@ -178,8 +180,8 @@
     padding: 6px; /* Add some spacing between each location item */
 }
 
-.hoverable:hover[b-dl4uaad1uh],
-.hoverable-buttons:hover[b-dl4uaad1uh] {
+.hoverable:hover[b-gj73hgc7ou],
+.hoverable-buttons:hover[b-gj73hgc7ou] {
     /* Add styles for the hoverable elements when hovered */
     background-color: #f0f0f0; /* Example background color change when hovered */
     background-color: #f0f0f0; /* Example background color change when hovered */
@@ -187,32 +189,32 @@
 
 }
 
-.location-icon[b-dl4uaad1uh] {
+.location-icon[b-gj73hgc7ou] {
     /* ... (existing styles for the location icon, if any) */
     font-size: 22px; /* Set the font size to change the icon size */
     padding-right: 20px;
     padding-left: 10px;
 }
 
-.location-name[b-dl4uaad1uh] {
+.location-name[b-gj73hgc7ou] {
     /* ... (existing styles for the location name, if any) */
     flex: 1; /* This will make the location name take up the available space */
     font-style: bold;
 }
 
-.location-number[b-dl4uaad1uh] {
+.location-number[b-gj73hgc7ou] {
     /* ... (existing styles for the location number, if any) */
     padding-right: 20px;
 }
 
-.show-more-less-buttons[b-dl4uaad1uh] {
+.show-more-less-buttons[b-gj73hgc7ou] {
     /* Add any additional styles for the button container if needed */
     margin-top: 10px; /* Add some spacing between the location items and buttons */
     padding: 6px; /* Add some spacing between each location item */
 
 }
 
-.hoverable-buttons button[b-dl4uaad1uh] {
+.hoverable-buttons button[b-gj73hgc7ou] {
     /* Add styles for the buttons with the hoverable-buttons class */
     /* These styles will be applied when the buttons are hovered */
     background-color: transparent; /* Example background color change when hovered */
@@ -224,13 +226,13 @@
 }
 
 /* Styles for the "Show More" and "Show Less" buttons */
-button[b-dl4uaad1uh] {
+button[b-gj73hgc7ou] {
     /* ... (existing styles for the buttons, if any) */
     margin-right: 10px; /* Add spacing between the buttons if needed */
 
 }
 /* _content/hrbot-web-app/Pages/Occupations.razor.rz.scp.css */
-.occupations-circle-white[b-mhmao8oouu] {
+.occupations-circle-white[b-7nalf5az38] {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -240,13 +242,13 @@ button[b-dl4uaad1uh] {
 }
 
 /* Custom styling for the Nearby occupationss component */
-.occupations-main-menu-list[b-mhmao8oouu] {
+.occupations-main-menu-list[b-7nalf5az38] {
   border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
   padding: 10px; /* Add some padding to create spacing between the lines and content */
   padding-bottom: 10px;
 }
 
-.occupations-item[b-mhmao8oouu] {
+.occupations-item[b-7nalf5az38] {
   /* ... (existing styles for the occupations items, if any) */
   display: flex;
   align-items: center;
@@ -255,8 +257,8 @@ button[b-dl4uaad1uh] {
   padding-left: 0%;
 }
 
-.hoverable:hover[b-mhmao8oouu],
-.hoverable-buttons:hover[b-mhmao8oouu] {
+.hoverable:hover[b-7nalf5az38],
+.hoverable-buttons:hover[b-7nalf5az38] {
   /* Add styles for the hoverable elements when hovered */
   background-color: #f0f0f0; /* Example background color change when hovered */
   background-color: #f0f0f0; /* Example background color change when hovered */
@@ -264,27 +266,27 @@ button[b-dl4uaad1uh] {
   
 }
 
-.occupation-icon[b-mhmao8oouu] {
+.occupation-icon[b-7nalf5az38] {
   /* ... (existing styles for the occupations icon, if any) */
   font-size: 22px; /* Set the font size to change the icon size */
   padding-right: 20px;
   padding-left: 10px;
 }
 
-.occupations-name[b-mhmao8oouu] {
+.occupations-name[b-7nalf5az38] {
   /* ... (existing styles for the occupations name, if any) */
   flex: 1; /* This will make the occupations name take up the available space */
   font-style: bold;
 }
 
-.show-more-less-buttons[b-mhmao8oouu] {
+.show-more-less-buttons[b-7nalf5az38] {
   /* Add any additional styles for the button container if needed */
   margin-top: 10px; /* Add some spacing between the occupations items and buttons */
   padding: 6px; /* Add some spacing between each occupations item */
 
 }
 
-.hoverable-buttons button[b-mhmao8oouu] {
+.hoverable-buttons button[b-7nalf5az38] {
   /* Add styles for the buttons with the hoverable-buttons class */
   /* These styles will be applied when the buttons are hovered */
   background-color: transparent; /* Example background color change when hovered */
@@ -296,7 +298,7 @@ button[b-dl4uaad1uh] {
 }
 
 /* Styles for the "Show More" and "Show Less" buttons */
-button[b-mhmao8oouu] {
+button[b-7nalf5az38] {
   /* ... (existing styles for the buttons, if any) */
   margin-left: -5px; /* Add spacing between the buttons if needed */
   padding: 6px; /* Add some spacing between each location item */
@@ -304,12 +306,12 @@ button[b-mhmao8oouu] {
 }
 /* _content/hrbot-web-app/Pages/Search.razor.rz.scp.css */
  /* Add rounded corners to the input box and the dropdown menu */
- .input-group .form-control[b-fzgsujbzc5],
- .dropdown-menu[b-fzgsujbzc5] {
+ .input-group .form-control[b-ak4tjqocdq],
+ .dropdown-menu[b-ak4tjqocdq] {
      border-radius: 10px; /* Adjust the value as needed */
  }
 
- .form-control[b-fzgsujbzc5]
+ .form-control[b-ak4tjqocdq]
  {
      height: 39px;
      width: 400px;
@@ -317,7 +319,7 @@ button[b-mhmao8oouu] {
  }
 
  /* Style the search icon */
- .search-input-group-addon[b-fzgsujbzc5] {
+ .search-input-group-addon[b-ak4tjqocdq] {
      background-color: #f1f1f1;
      border: none;
      border-radius: 10px 0 0 10px; /* Adjust the value as needed */
@@ -326,7 +328,7 @@ button[b-mhmao8oouu] {
      padding-top: 1.2%;
  }
 
- .container[b-fzgsujbzc5] 
+ .container[b-ak4tjqocdq] 
  {
      position: absolute;
      padding-right: 30%;
@@ -335,37 +337,37 @@ button[b-mhmao8oouu] {
  }
 
  /* Style the search button */
- .search-input-group-btn .btn[b-fzgsujbzc5] {
+ .search-input-group-btn .btn[b-ak4tjqocdq] {
      border-radius: 0 10px 10px 0; /* Adjust the value as needed */
      background-color: #f1f1f1;
      height: 39px;
  }
 
  /* Style the dropdown menu items */
- .search-dropdown-menu li a[b-fzgsujbzc5] {
+ .search-dropdown-menu li a[b-ak4tjqocdq] {
      color: #333;
  }
 
  /* Add some padding to the dropdown menu */
- .dropdown-menu[b-fzgsujbzc5] {
+ .dropdown-menu[b-ak4tjqocdq] {
      padding: 00px;
  }
 
- .nav-main-icon[b-fzgsujbzc5] {
+ .nav-main-icon[b-ak4tjqocdq] {
      margin-right: 10px; /* Adjust the value as needed */
  }
 
  /* Adjust the size of the icons */
- .nav-main-icon i[b-fzgsujbzc5] {
+ .nav-main-icon i[b-ak4tjqocdq] {
      font-size: 24px; /* Adjust the value as needed */
  }
 /* _content/hrbot-web-app/Pages/SiteMap.razor.rz.scp.css */
-.sitemap-container[b-f3n8q9xob2] {
+.sitemap-container[b-m8v9wos20g] {
   position: relative; /* To enable absolute positioning for the text */
   height: 300px; /* Set the container height as per your requirement */
 }
 
-.sitemap-centered-text[b-f3n8q9xob2] {
+.sitemap-centered-text[b-m8v9wos20g] {
   position: absolute;
   top: 10;
   bottom: 0;
@@ -374,19 +376,19 @@ button[b-mhmao8oouu] {
   text-align: center;
 }
 
-.sitemap-icon-container[b-f3n8q9xob2] {
+.sitemap-icon-container[b-m8v9wos20g] {
   display: flex;
   gap: 10px;
   justify-content: center; /* Center the icons horizontally */
 }
 
 /* Adjust the font size and color of the icons as needed */
-.sitemap-icon[b-f3n8q9xob2] {
+.sitemap-icon[b-m8v9wos20g] {
   font-size: 24px;
   color: #333;
 }
 
-.sitemap-logo[b-f3n8q9xob2] {
+.sitemap-logo[b-m8v9wos20g] {
   position: absolute;
   top: 0;
   left: 25%;
@@ -395,7 +397,7 @@ button[b-mhmao8oouu] {
   height: auto;
 }
 
-.sitemap-google-logo[b-f3n8q9xob2] {
+.sitemap-google-logo[b-m8v9wos20g] {
   position: absolute;
   top: 20%;
   right: -25%;
@@ -404,7 +406,7 @@ button[b-mhmao8oouu] {
   height: auto;
 }
 
-.sitemap-apple-logo[b-f3n8q9xob2] {
+.sitemap-apple-logo[b-m8v9wos20g] {
   position: absolute;
   top: 0;
   right: -19%;
@@ -414,7 +416,7 @@ button[b-mhmao8oouu] {
 }
 
 
-.scan-text[b-f3n8q9xob2] {
+.scan-text[b-m8v9wos20g] {
   font-size: 15.2px;
   color: #666;
   margin-top: 20px;
@@ -423,32 +425,32 @@ button[b-mhmao8oouu] {
 }
 
  /* Styling for the rows */
- .sitemap-rows-container[b-f3n8q9xob2] {
+ .sitemap-rows-container[b-m8v9wos20g] {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.row[b-f3n8q9xob2] {
+.row[b-m8v9wos20g] {
   flex: 1;
   padding: 10px;
 }
 /* _content/hrbot-web-app/Shared/MainLayout.razor.rz.scp.css */
-.page[b-fwcetftjex] {
+.page[b-mm6scu6ybp] {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-main[b-fwcetftjex] {
+main[b-mm6scu6ybp] {
     flex: 1;
 }
 
-.sidebar[b-fwcetftjex] {
+.sidebar[b-mm6scu6ybp] {
     background-color: #f7f7f7;
 }
 
-.top-row[b-fwcetftjex] {
+.top-row[b-mm6scu6ybp] {
     background: #c2c9d2;
     justify-content: flex-end;
     height: 3.5rem;
@@ -456,113 +458,113 @@ main[b-fwcetftjex] {
     align-items: center;
 }
 
-    .top-row[b-fwcetftjex]  a, .top-row .btn-link[b-fwcetftjex] {
+    .top-row[b-mm6scu6ybp]  a, .top-row .btn-link[b-mm6scu6ybp] {
         white-space: nowrap;
         margin-left: 1.5rem;
     }
 
-    .top-row a:first-child[b-fwcetftjex] {
+    .top-row a:first-child[b-mm6scu6ybp] {
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
 @media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-fwcetftjex] {
+    .top-row:not(.auth)[b-mm6scu6ybp] {
         display: none;
     }
 
-    .top-row.auth[b-fwcetftjex] {
+    .top-row.auth[b-mm6scu6ybp] {
         justify-content: space-between;
     }
 
-    .top-row a[b-fwcetftjex], .top-row .btn-link[b-fwcetftjex] {
+    .top-row a[b-mm6scu6ybp], .top-row .btn-link[b-mm6scu6ybp] {
         margin-left: 0;
     }
 }
 
 @media (min-width: 641px) {
-    .page[b-fwcetftjex] {
+    .page[b-mm6scu6ybp] {
         flex-direction: row;
     }
 
-    .sidebar[b-fwcetftjex] {
+    .sidebar[b-mm6scu6ybp] {
         width: 450px;
         height: 100vh;
         position: sticky;
         top: 0;
     }
 
-    .top-row[b-fwcetftjex] {
+    .top-row[b-mm6scu6ybp] {
         position: sticky;
         top: 0;
         z-index: 1;
     }
 
-    .top-row[b-fwcetftjex], article[b-fwcetftjex] {
+    .top-row[b-mm6scu6ybp], article[b-mm6scu6ybp] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
 }
 /* _content/hrbot-web-app/Shared/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-yljsykpo51] {
+.navbar-toggler[b-gkdjvjcegs] {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.top-row[b-yljsykpo51] {
+.top-row[b-gkdjvjcegs] {
     height: 3.5rem;
     background: #c2c9d2;
 }
 
-.navbar-brand[b-yljsykpo51] {
+.navbar-brand[b-gkdjvjcegs] {
     font-size: 1.1rem;
     position: relative;
     display: flex;
     align-items: center;
 }
 
-.navbar-brand img[b-yljsykpo51] {
+.navbar-brand img[b-gkdjvjcegs] {
     margin-right: 10px;
 }
 
-.navbar-brand span[b-yljsykpo51] {
+.navbar-brand span[b-gkdjvjcegs] {
     position: absolute;
     right: 300px;
     color: white;
 }
 
-.nav-menu-container[b-yljsykpo51]::-webkit-scrollbar {
+.nav-menu-container[b-gkdjvjcegs]::-webkit-scrollbar {
     /* Width of vertical scroll bar */
     width: 8px;
     /* Height of horizontal scroll bar */
     height: 10px;
 }
 
-.nav-menu-container[b-yljsykpo51]::-webkit-scrollbar-thumb {
+.nav-menu-container[b-gkdjvjcegs]::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background: #c2c9d2;
 }
 
-.oi[b-yljsykpo51] {
+.oi[b-gkdjvjcegs] {
     width: 2rem;
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
 }
 
-.nav-item[b-yljsykpo51] {
+.nav-item[b-gkdjvjcegs] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type[b-yljsykpo51] {
+    .nav-item:first-of-type[b-gkdjvjcegs] {
         padding-top: 1rem;
     }
 
-    .nav-item:last-of-type[b-yljsykpo51] {
+    .nav-item:last-of-type[b-gkdjvjcegs] {
         padding-bottom: 1rem;
     }
 
-    .nav-item[b-yljsykpo51]  a {
+    .nav-item[b-gkdjvjcegs]  a {
         color: #d7d7d7;
         border-radius: 4px;
         height: 3rem;
@@ -571,30 +573,30 @@ main[b-fwcetftjex] {
         line-height: 3rem;
     }
 
-.nav-item[b-yljsykpo51]  a.active {
+.nav-item[b-gkdjvjcegs]  a.active {
     background-color: rgba(255,255,255,0.25);
     color: white;
 }
 
-.nav-item[b-yljsykpo51]  a:hover {
+.nav-item[b-gkdjvjcegs]  a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
 }
 
-.nav-item-flex[b-yljsykpo51] {
+.nav-item-flex[b-gkdjvjcegs] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 
-    .nav-item-flex:first-of-type[b-yljsykpo51] {
+    .nav-item-flex:first-of-type[b-gkdjvjcegs] {
         padding-top: 1rem;
     }
 
-    .nav-item-flex:last-of-type[b-yljsykpo51] {
+    .nav-item-flex:last-of-type[b-gkdjvjcegs] {
         padding-bottom: 1rem;
     }
 
-    .nav-item-flex[b-yljsykpo51]  a {
+    .nav-item-flex[b-gkdjvjcegs]  a {
         color: #d7d7d7;
         border-radius: 4px;
         height: 3rem;
@@ -603,27 +605,27 @@ main[b-fwcetftjex] {
         line-height: 3rem;
     }
 
-.nav-item-flex[b-yljsykpo51]  a.active {
+.nav-item-flex[b-gkdjvjcegs]  a.active {
     background-color: rgba(255,255,255,0.25);
     color: white;
 }
 
-.nav-item-flex[b-yljsykpo51]  a:hover {
+.nav-item-flex[b-gkdjvjcegs]  a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
 }
 
 @media (min-width: 641px) {
-    .navbar-toggler[b-yljsykpo51] {
+    .navbar-toggler[b-gkdjvjcegs] {
         display: none;
     }
 
-    .collapse[b-yljsykpo51] {
+    .collapse[b-gkdjvjcegs] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
 
-    .nav-menu-container[b-yljsykpo51] {
+    .nav-menu-container[b-gkdjvjcegs] {
         height: calc(100vh - 3.5rem); /* Adjust the height as needed */
         overflow-y: auto; /* Enable vertical scrollbar when content overflows */
     }
@@ -631,7 +633,7 @@ main[b-fwcetftjex] {
 
 
 @media (max-width: 640px) {
-    .nav-item-flex[b-yljsykpo51] {
+    .nav-item-flex[b-gkdjvjcegs] {
         display: none;
     }
 }

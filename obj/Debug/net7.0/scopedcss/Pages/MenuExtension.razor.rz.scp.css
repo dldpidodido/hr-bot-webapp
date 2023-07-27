@@ -1,4 +1,4 @@
-.main-menu-extension-page[b-ehav92a1i1] {
+.main-menu-extension-page[b-2r6oodfzi5] {
     display: flex;
     flex-direction: column;
     overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
@@ -13,7 +13,7 @@
 
 
 
-.menu-extension-content[b-ehav92a1i1] {
+.menu-extension-content[b-2r6oodfzi5] {
     /* Apply styles to the content inside the menu container */
     padding: 10px;
     border-radius: 20px; /* Add border radius to make it a rounded button */
@@ -26,7 +26,7 @@
 
 @media (max-width: 767px) {
     /* For screens up to 767px (mobile) */
-    .main-menu-extension-page[b-ehav92a1i1] {
+    .main-menu-extension-page[b-2r6oodfzi5] {
         display: none;
         padding-bottom: 0px; /* Add some padding to the menu container */
 

@@ -1,9 +1,9 @@
-.sitemap-container[b-f3n8q9xob2] {
+.sitemap-container[b-m8v9wos20g] {
   position: relative; /* To enable absolute positioning for the text */
   height: 300px; /* Set the container height as per your requirement */
 }
 
-.sitemap-centered-text[b-f3n8q9xob2] {
+.sitemap-centered-text[b-m8v9wos20g] {
   position: absolute;
   top: 10;
   bottom: 0;
@@ -12,19 +12,19 @@
   text-align: center;
 }
 
-.sitemap-icon-container[b-f3n8q9xob2] {
+.sitemap-icon-container[b-m8v9wos20g] {
   display: flex;
   gap: 10px;
   justify-content: center; /* Center the icons horizontally */
 }
 
 /* Adjust the font size and color of the icons as needed */
-.sitemap-icon[b-f3n8q9xob2] {
+.sitemap-icon[b-m8v9wos20g] {
   font-size: 24px;
   color: #333;
 }
 
-.sitemap-logo[b-f3n8q9xob2] {
+.sitemap-logo[b-m8v9wos20g] {
   position: absolute;
   top: 0;
   left: 25%;
@@ -33,7 +33,7 @@
   height: auto;
 }
 
-.sitemap-google-logo[b-f3n8q9xob2] {
+.sitemap-google-logo[b-m8v9wos20g] {
   position: absolute;
   top: 20%;
   right: -25%;
@@ -42,7 +42,7 @@
   height: auto;
 }
 
-.sitemap-apple-logo[b-f3n8q9xob2] {
+.sitemap-apple-logo[b-m8v9wos20g] {
   position: absolute;
   top: 0;
   right: -19%;
@@ -52,7 +52,7 @@
 }
 
 
-.scan-text[b-f3n8q9xob2] {
+.scan-text[b-m8v9wos20g] {
   font-size: 15.2px;
   color: #666;
   margin-top: 20px;
@@ -61,13 +61,13 @@
 }
 
  /* Styling for the rows */
- .sitemap-rows-container[b-f3n8q9xob2] {
+ .sitemap-rows-container[b-m8v9wos20g] {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.row[b-f3n8q9xob2] {
+.row[b-m8v9wos20g] {
   flex: 1;
   padding: 10px;
 }

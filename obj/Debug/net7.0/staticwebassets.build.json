@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7T41KqpX8v9AQKLqwIVunreFBOHrQqrYDS3Bsl79c60=",
+  "Hash": "tx2pqY3RfReQA7JjrleTkTQ6IGOjtx5jzg4ITNpMZRE=",
   "Source": "hrbot-web-app",
   "BasePath": "_content/hrbot-web-app",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "hrbot-web-app\\wwwroot",
+      "Name": "hrbot-web-app/wwwroot",
       "Source": "hrbot-web-app",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\hrbot-web-app.styles.css",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/obj/Debug/net7.0/scopedcss/bundle/hrbot-web-app.styles.css",
       "SourceId": "hrbot-web-app",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "hrbot-web-app.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\WebApp\\hrbot-web-app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\hrbot-web-app.styles.css"
+      "OriginalItemSpec": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/obj/Debug/net7.0/scopedcss/bundle/hrbot-web-app.styles.css"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\hrbot-web-app.bundle.scp.css",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/obj/Debug/net7.0/scopedcss/projectbundle/hrbot-web-app.bundle.scp.css",
       "SourceId": "hrbot-web-app",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "hrbot-web-app.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\WebApp\\hrbot-web-app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\hrbot-web-app.bundle.scp.css"
+      "OriginalItemSpec": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/obj/Debug/net7.0/scopedcss/projectbundle/hrbot-web-app.bundle.scp.css"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/open-iconic/README.md",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\css\\site.css",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/css/site.css",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\favicon.png",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/favicon.png",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\architecture.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/architecture.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/architecture.svg",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\architecture.svg"
+      "OriginalItemSpec": "wwwroot/icons/architecture.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\building-maintenance.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/building-maintenance.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/building-maintenance.svg",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\building-maintenance.svg"
+      "OriginalItemSpec": "wwwroot/icons/building-maintenance.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\business.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/business.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/business.svg",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\business.svg"
+      "OriginalItemSpec": "wwwroot/icons/business.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\cog-outline.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/cog-outline.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/cog-outline.svg",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\cog-outline.svg"
+      "OriginalItemSpec": "wwwroot/icons/cog-outline.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\construction.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/construction.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/construction.svg",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\construction.svg"
+      "OriginalItemSpec": "wwwroot/icons/construction.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\education.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/education.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/education.svg",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\education.svg"
+      "OriginalItemSpec": "wwwroot/icons/education.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\entertainment.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/entertainment.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/entertainment.svg",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\entertainment.svg"
+      "OriginalItemSpec": "wwwroot/icons/entertainment.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\farming.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/farming.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/farming.svg",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\farming.svg"
+      "OriginalItemSpec": "wwwroot/icons/farming.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\food-service.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/food-service.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/food-service.svg",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\food-service.svg"
+      "OriginalItemSpec": "wwwroot/icons/food-service.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\globe-outline.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/globe-outline.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/globe-outline.svg",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\globe-outline.svg"
+      "OriginalItemSpec": "wwwroot/icons/globe-outline.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\healthcare-support.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/healthcare-support.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/healthcare-support.svg",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\healthcare-support.svg"
+      "OriginalItemSpec": "wwwroot/icons/healthcare-support.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\healthcare.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/healthcare.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/healthcare.svg",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\healthcare.svg"
+      "OriginalItemSpec": "wwwroot/icons/healthcare.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\installation.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/installation.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/installation.svg",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\installation.svg"
+      "OriginalItemSpec": "wwwroot/icons/installation.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\legal.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/legal.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/legal.svg",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\legal.svg"
+      "OriginalItemSpec": "wwwroot/icons/legal.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\logo-github.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/logo-github.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/logo-github.svg",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\logo-github.svg"
+      "OriginalItemSpec": "wwwroot/icons/logo-github.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\management.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/management.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/management.svg",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\management.svg"
+      "OriginalItemSpec": "wwwroot/icons/management.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\manufacturing.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/manufacturing.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/manufacturing.svg",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\manufacturing.svg"
+      "OriginalItemSpec": "wwwroot/icons/manufacturing.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\military.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/military.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/military.svg",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\military.svg"
+      "OriginalItemSpec": "wwwroot/icons/military.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\office.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/office.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/office.svg",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\office.svg"
+      "OriginalItemSpec": "wwwroot/icons/office.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\personal-care.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/personal-care.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/personal-care.svg",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\personal-care.svg"
+      "OriginalItemSpec": "wwwroot/icons/personal-care.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\sales.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/sales.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/sales.svg",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\sales.svg"
+      "OriginalItemSpec": "wwwroot/icons/sales.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\science.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/science.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/science.svg",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\science.svg"
+      "OriginalItemSpec": "wwwroot/icons/science.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\security.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/security.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/security.svg",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\security.svg"
+      "OriginalItemSpec": "wwwroot/icons/security.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\social-service.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/social-service.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/social-service.svg",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\social-service.svg"
+      "OriginalItemSpec": "wwwroot/icons/social-service.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\tech.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/tech.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/tech.svg",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\tech.svg"
+      "OriginalItemSpec": "wwwroot/icons/tech.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\icons\\transportation.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/icons/transportation.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "icons/transportation.svg",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\transportation.svg"
+      "OriginalItemSpec": "wwwroot/icons/transportation.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\misc\\cherry.png",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/misc/cherry.png",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "misc/cherry.png",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\misc\\cherry.png"
+      "OriginalItemSpec": "wwwroot/misc/cherry.png"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\misc\\en-US apple.svg",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/misc/en-US apple.svg",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "misc/en-US apple.svg",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\misc\\en-US apple.svg"
+      "OriginalItemSpec": "wwwroot/misc/en-US apple.svg"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\misc\\en-US google.png",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/misc/en-US google.png",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "misc/en-US google.png",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\misc\\en-US google.png"
+      "OriginalItemSpec": "wwwroot/misc/en-US google.png"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\misc\\pear.png",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/misc/pear.png",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "misc/pear.png",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\misc\\pear.png"
+      "OriginalItemSpec": "wwwroot/misc/pear.png"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\misc\\qrcode.png",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/misc/qrcode.png",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "misc/qrcode.png",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\misc\\qrcode.png"
+      "OriginalItemSpec": "wwwroot/misc/qrcode.png"
     },
     {
-      "Identity": "F:\\WebApp\\hrbot-web-app\\wwwroot\\misc\\tomato.png",
+      "Identity": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/misc/tomato.png",
       "SourceId": "hrbot-web-app",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\wwwroot\\",
+      "ContentRoot": "/Users/hypernationbuildpc/Desktop/Personal/demo-asp-net/hr-bot-webapp/wwwroot/",
       "BasePath": "_content/hrbot-web-app",
       "RelativePath": "misc/tomato.png",
       "AssetKind": "All",
@@ -813,7 +813,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\misc\\tomato.png"
+      "OriginalItemSpec": "wwwroot/misc/tomato.png"
     }
   ]
 }
