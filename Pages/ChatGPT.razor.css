@@ -40,12 +40,14 @@
 .chat-analyzed-button {
     margin-top: 10px;
     margin-left: 190px;
+    margin-bottom: 10px;
     border-radius: 20px;
     background-color: #ccc;
     padding: 5px 30px;
     text-align: center;
     width: 210px;
     color: white;
+    border: none;
 
 }
 

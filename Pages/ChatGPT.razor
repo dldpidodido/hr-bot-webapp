@@ -3,9 +3,9 @@
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <div id="chatpage">
- 	<div class="chat-analyzed-button">
+ 	<button class="chat-analyzed-button" @onclick="GoToNewPage">
         <span class="button-text">Analyze Resume / CV</span>
-    </div>
+	</button>
 	
 	<div id="chatcontainer">
 		@foreach (var item in messages)
@@ -64,6 +64,9 @@
 	string prompt = string.Empty;
 	bool _isLoading = false;
 	int TotalTokens = 0;
+
+	 [Inject]
+    private NavigationManager NavigationManager { get; set; }
 
 	List<Message> messages = new List<Message>();
 
@@ -138,6 +141,11 @@
 		ErrorMessage = string.Empty;
 		StateHasChanged();
 	}
+
+	private void GoToNewPage()
+    {
+        NavigationManager.NavigateTo("/analyze");
+    }
 
 	public class Message
 	{
