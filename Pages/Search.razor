@@ -33,18 +33,14 @@
 
 @code
 {
-    private bool IsModalVisible = false;
+    [CascadingParameter] public IModalService Modal { get; set; } = default!;
 
-    private void ShowModal()
-    {
-        IsModalVisible = true;
-        Console.Write ("Show Modal");
-    }
-
-    private void CloseModal()
-    {
-        IsModalVisible = false;
-    }
-        
+    ModalOptions options = new ModalOptions() 
+    { 
+        UseCustomLayout = true,
+        Size = ModalSize.Small ,
+        Position = ModalPosition.TopRight 
+    };
+    void ShowModal() => Modal.Show<Confirm>("", options);
 
 }
