@@ -1,94 +1,98 @@
-@page "/analyze"
+﻿@page "/analyze"
+@inject IJSRuntime jsRuntime
 
-<style>
-.analyze-page-container {
-    margin-top: 2%;
-    padding: 10px; /* Add some padding to create space between the border and content */
-    min-height: 80vh; /* Ensures the container takes up at least the full viewport height */
-    width: 70%; /* Set the width of the container to 70% of the viewport width */
-    max-width: 500px; /* Set a maximum width for the container to limit its width on large screens */
-    background-color: #f2f2f2; /* Set background color */
-    border-radius: 10px; /* Add border radius for a rounded appearance */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-    margin-left: auto; /* Auto left margin to center the container horizontally */
-    margin-right: auto; /* Auto right margin to center the container horizontally */
-            position: relative; /* Add position: relative to the container to act as the reference for absolute positioning */
 
-}
-
-.analyze-page-container h1 {
-    font-weight: bold; /* Make the h1 element bold */
-    text-align: center; /* Center the h1 element */
-    font-size: 22px;
-}
-
-.line-center {
-    display: block;
-    width: 90%;
-    margin: 20px auto; /* Adjust the margin as needed */
-    border: 1px solid #ccc; /* Set line color and style */
-}
-
-/* Add font-awesome styles */
-.analyze-page-container .fa-icon {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-       /* Add the following styles for the buttons */
-    .button-container {
-        display: flex;
-        flex-direction: column; /* Set the direction to column to stack the buttons vertically */
-        align-items: center; /* Center the buttons horizontally */
-        position: absolute; /* Position the container absolutely */
-        bottom: 0; /* Stick the container to the bottom */
-        left: 0; /* Align the container to the left edge */
-        right: 0; /* Align the container to the right edge */
-        padding: 10px 0; /* Add some padding to the container */
-    }
-
-    .cornered-button {
-        margin: 5px; /* Adjust the margin to control the spacing between buttons */
-        padding: 10px 20px;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 25px; /* Adjust the value to control the roundness of the corners */
-        cursor: pointer;
-        width: 100%; /* Make the buttons take up the full width of the container */
-    }
-    
-.analyze-page-container h6 {
-    text-align: center;
-    font-size: 13px;
-}
-
-</style>
-
-<div class="analyze-page-container">
-    <!-- Your page content goes here -->
-    <h1>Sync your resume / CV with ChatGPT</h1>
-        <hr class="line-center"> <!-- Horizontal line centered below the text content -->
-    <p>What we do</p>
-    <p>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Read job data from across the web<br>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Send new jobs to ChatGPT along with your resume to decide if they are relevant to you<br>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Make your resume / CV available to ChatGPT across conversations and devices<span class="fa-icon"><i class="fas fa-rocket"></i></span>Coming Soon<br>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Save changes made by you and ChatGPT<span class="fa-icon"><i class="fas fa-rocket"></i></span>Coming Soon
-    </p>
-
-    <p>Features added to ChatGPT</p>
-    <p>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Search and discuss millions of jobs<br>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Send new jobs to ChatGPT along with your resume to decide if they are relevant to you<br>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Make your resume / CV available to ChatGPT across conversations and devices<span class="fa-icon"><i class="fas fa-rocket"></i></span>Coming Soon<br>
-        <span class="fa-icon"><i class="fa-solid fa-circle-check"></i></span>Save changes made by you and ChatGPT<span class="fa-icon"><i class="fas fa-rocket"></i></span>Coming Soon
-    </p>
-
-     <div class="button-container">
-        <button class="cornered-button">Analyze Resume/CV</button>
-        <button class="cornered-button">Import from LinkIn</button>
-        <h6>By pressing the button above, you agree to our Terms and Privacy Policy, and agree to receive email job alerts. You can unsubscribe anytime.</h6>
+<div class="card bg-light" style="max-width: 500px; margin-bottom: 3rem;transform: translate(@xPos, @yPos)">
+    <div class="card-header bg-secondary">
+        <span class="card-text" style="color:white">
+            Sync your resume / CV with ChatGPT
+       </span>
     </div>
-
+    <div class="card-body">
+        <span>What we do</span>
+        <ul>
+            <li>Read job data from across the web</li>
+            <li>Send new jobs to ChatGPT along with your resume to decide if they are relevant to you</li>
+            <li>Make your resume / CV available to ChatGPT across conversations and devicesComing Soon</li>
+            <li>Save changes made by you and ChatGPTComing Soon</li>
+        </ul>
+        <span>Features added to ChatGPT</span>
+        <ul>
+            <li>Search and discuss millions of jobs</li>
+            <li>Tailored job recommendations</li>
+            <li>Comprehensive resume analysis Coming Soon</li>
+        </ul>
+    </div>
+    <a class="btn btn-primary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:0.3rem" @onclick="ChooseFileAsync">Analyze Resume / CV</a>
+    <input type="file" @ref="InputFileElement" id="fileInput" style="display:none" accept=".txt,.pdf,.docx" @onchange="HandleFileSelectAsync" />
+    <a class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:2rem">Import from LinkedIn</a>
+    <span style="font-size:16px; padding-left: 1.5rem; padding-right: 1.5rem; padding-left: 1.5rem; padding: 1rem">
+        By pressing the button above, you agree to our Terms and Privacy Policy, and agree to receive email job alerts. You can unsubscribe anytime.
+    </span>
 </div>
+
+@using hr_bot_webapp_v2.Services
+@using System.Text.RegularExpressions
+@using System.Collections.Generic
+
+@inject JobInitService JobInitService
+@inject SharedService SharedService
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+@code {
+
+    private ElementReference InputFileElement;
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    private async Task ChooseFileAsync()
+    {
+        await jsRuntime.InvokeVoidAsync("triggerFileInputClick", InputFileElement);
+    }
+
+    private async Task HandleFileSelectAsync()
+    {
+        var fileContent = await jsRuntime.InvokeAsync<string>("readFileContent", InputFileElement);
+        List<JobInitService.JobInit> jobInits = new List<JobInitService.JobInit>();
+
+        Console.WriteLine("HandleFileSelectAsync \n" + fileContent); // Example: print the content to the console
+        if (SharedService.StartChatGPTServiceDirectInstance != null)
+        {
+            var e = await SharedService.StartChatGPTServiceDirectInstance(fileContent);
+            // Use a regular expression to match the pattern of the job positions
+            Regex regex = new Regex(@"\d+\.\s(.*?)(?=\s\d+\.|\s*$)");
+
+            // Create a list to store the extracted job positions
+            List<string> jobPositions = new List<string>();
+
+            // Iterate through the matches and add them to the list
+            foreach (Match match in regex.Matches(e))
+            {
+                jobPositions.Add(match.Groups[1].Value);
+            }
+
+            // Print the job positions
+            Console.WriteLine("Job Positions:");
+
+            foreach (string jobPosition in jobPositions)
+            {
+                Console.WriteLine(jobPosition);
+                jobInits.Add(new JobInitService.JobInit { refTitle = jobPosition });
+            }
+        }
+        await localStorage.RemoveItemAsync("JobInits");
+        await localStorage.SetItemAsync("JobInits", jobInits);
+        NavigationManager.NavigateTo("/");
+    }
+
+    private bool IsMobile { get; set; }
+    private string xPos, yPos;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        IsMobile = await jsRuntime.InvokeAsync<bool>("isMobileDevice");
+        xPos = IsMobile ? "0" : "86%"; /* mobile | pc */
+        yPos = IsMobile ? "0" : "5%";
+        StateHasChanged();
+    }
+}

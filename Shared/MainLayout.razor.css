@@ -9,12 +9,12 @@ main {
 }
 
 .sidebar {
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
 }
 
 .top-row {
     background: #c2c9d2;
-    justify-content: flex-end;
+    justify-content: flex-start; /* Change 'flex-end' to 'flex-start' */
     height: 3.5rem;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ main {
 
     .top-row ::deep a, .top-row .btn-link {
         white-space: nowrap;
-        margin-left: 1.5rem;
+        margin-right: 1.5rem; /* Change 'margin-left' to 'margin-right' */
     }
 
     .top-row a:first-child {
@@ -40,13 +40,13 @@ main {
     }
 
     .top-row a, .top-row .btn-link {
-        margin-left: 0;
+        margin-right: 0; /* Change 'margin-left' to 'margin-right' */
     }
 }
 
 @media (min-width: 641px) {
     .page {
-        flex-direction: row;
+        flex-direction: row-reverse; /* Change 'row' to 'row-reverse' */
     }
 
     .sidebar {
@@ -63,7 +63,7 @@ main {
     }
 
     .top-row, article {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important; /* Adjust padding values to your preference */
+        padding-right: 2rem !important; /* Adjust padding values to your preference */
     }
 }

@@ -1,7 +1,6 @@
 ﻿@inherits LayoutComponentBase
 
-<PageTitle>hrbot-web-app</PageTitle>
-@using hrbot_web_app.Pages
+<PageTitle>hr-bot-webapp v2</PageTitle>
 
 <div class="page">
     <div class="sidebar">
@@ -9,8 +8,27 @@
     </div>
 
     <main>
-        <div class="top-row px-4">
-            <Search/>
+        <div class="top-row">
+            <img src="/misc/cherry.png" style="width: 30px;">
+            <a class="navbar-brand nav-item-flex text-white" href="" style="padding-left:1rem; padding-right:20rem">
+                <span>HRBot</span>
+            </a>
+            <div >
+                <BSInputGroup >
+                    <span class="@BS.Input_Group_Text bg-light" style="border-top-left-radius : 15px; border-bottom-left-radius: 15px; padding:10px; border: none"> <ion-icon name="search-outline" style="small"></ion-icon></span>
+                    <BSInput InputType="InputType.Text" Value="@("")" style="border:none; margin:0; padding:0; width: 20rem" class="bg-light" />
+                    <BSDropdown Placement="Placement.BottomEnd" >
+                        <Toggler><BSToggle IsButton="true" IsOutlined="false" Color="BSColor.Light">Dropdown</BSToggle></Toggler>
+                        <Content>
+                            <BSDropdownItem>Action</BSDropdownItem>
+                            <BSDropdownItem>Another action</BSDropdownItem>
+                            <BSDropdownItem>Something else here</BSDropdownItem>
+                            <BSDropdownItem IsDivider="true" />
+                            <BSDropdownItem>Separated link</BSDropdownItem>
+                        </Content>
+                    </BSDropdown>
+                </BSInputGroup>
+            </div>
         </div>
 
         <article class="content px-4">

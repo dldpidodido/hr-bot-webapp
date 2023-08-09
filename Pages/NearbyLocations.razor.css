@@ -1,4 +1,4 @@
-/* Custom styling for the Nearby Locations component */
+﻿/* Custom styling for the Nearby Locations component */
 .main-menu-list {
     border-top: 1px solid #9b9b9b; /* Add a top border to create the top line */
     border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
@@ -20,7 +20,6 @@
     background-color: #f0f0f0; /* Example background color change when hovered */
     background-color: #f0f0f0; /* Example background color change when hovered */
     border-radius: 10px; /* Add this line to create cornered hover background for buttons */
-
 }
 
 .location-icon {
@@ -45,7 +44,6 @@
     /* Add any additional styles for the button container if needed */
     margin-top: 10px; /* Add some spacing between the location items and buttons */
     padding: 6px; /* Add some spacing between each location item */
-
 }
 
 .hoverable-buttons button {
@@ -63,5 +61,4 @@
 button {
     /* ... (existing styles for the buttons, if any) */
     margin-right: 10px; /* Add spacing between the buttons if needed */
-
 }

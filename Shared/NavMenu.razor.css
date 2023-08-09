@@ -1,10 +1,25 @@
 .navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.1);
+    /*background-color: rgba(255, 255, 255, 0.1);*/
 }
 
 .top-row {
     height: 3.5rem;
     background: #c2c9d2;
+}
+
+.top-icons {
+    color: white;
+    position: absolute;
+    padding-right: 10px;
+    right: 0; /* Use 'right' property to position to the right */
+}
+
+
+.nav-modal-class {
+    width: 20rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 4.0rem;
 }
 
 .navbar-brand {
@@ -20,7 +35,7 @@
 
 .navbar-brand span {
     position: absolute;
-    right: 300px;
+    left: 0; /* Change 'right' to 'left' */
     color: white;
 }
 
@@ -48,30 +63,30 @@
     padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type {
-        padding-top: 1rem;
-    }
+.nav-item:first-of-type {
+    padding-top: 1rem;
+}
 
-    .nav-item:last-of-type {
-        padding-bottom: 1rem;
-    }
+.nav-item:last-of-type {
+    padding-bottom: 1rem;
+}
 
-    .nav-item ::deep a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
+.nav-item ::deep a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
 
 .nav-item ::deep a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 255, 255, 0.25);
     color: white;
 }
 
 .nav-item ::deep a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
 }
 
@@ -80,30 +95,30 @@
     padding-bottom: 0.5rem;
 }
 
-    .nav-item-flex:first-of-type {
-        padding-top: 1rem;
-    }
+.nav-item-flex:first-of-type {
+    padding-top: 1rem;
+}
 
-    .nav-item-flex:last-of-type {
-        padding-bottom: 1rem;
-    }
+.nav-item-flex:last-of-type {
+    padding-bottom: 1rem;
+}
 
-    .nav-item-flex ::deep a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
+.nav-item-flex ::deep a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
 
 .nav-item-flex ::deep a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 255, 255, 0.25);
     color: white;
 }
 
 .nav-item-flex ::deep a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
 }
 
@@ -123,9 +138,9 @@
     }
 }
 
-
 @media (max-width: 640px) {
     .nav-item-flex {
         display: none;
     }
 }
+

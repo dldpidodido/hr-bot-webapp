@@ -1,0 +1,20 @@
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.exe
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\appsettings.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.deps.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.runtimeconfig.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.pdb
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\BlazorComponentUtilities.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Blazored.Modal.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\BlazorStrap.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\BlazorStrap.V5.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Authorization.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Components.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Components.Forms.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Components.Web.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Metadata.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.Extensions.Options.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.JSInterop.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.JSInterop.WebAssembly.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\OpenAI-DotNet.dll

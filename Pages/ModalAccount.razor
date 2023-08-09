@@ -1,0 +1,34 @@
+﻿
+@inject IJSRuntime jsRuntime
+
+<div class="nav-modal-class">
+<BSListGroup>
+        <BSListGroupItem><span @onclick="@(() => {Cancel(); NavigationManager.NavigateTo("/login");})">Login</span></BSListGroupItem>
+        <BSListGroupItem><span @onclick="@(() => {Cancel(); NavigationManager.NavigateTo("/signup");})">Sign Up</span></BSListGroupItem>
+        <BSListGroupItem>
+            <div class="d-flex align-items-center">
+                <span class="ml-2" style="margin:0; padding-right:10rem">Dark Mode</span>
+                <BSInputSwitch CheckedValue="@("dark")" UnCheckedValue="@("light")" @bind-Value="Value" @onchange="@(() => SetTheme())"></BSInputSwitch>
+            </div>
+        </BSListGroupItem>
+    <BSListGroupItem>Help</BSListGroupItem>
+    <BSListGroupItem>Share our app</BSListGroupItem>
+</BSListGroup>
+</div>
+@code {
+
+    [CascadingParameter] BlazoredModalInstance BlazoredModal { get; set; } = default!;
+    private string Value { get; set; } = "dark";
+
+    async Task Close() => await BlazoredModal.CloseAsync(ModalResult.Ok(true));
+    async Task Cancel() => await BlazoredModal.CancelAsync();
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    private void SetTheme()
+    {
+        Console.WriteLine("Change Set Theme");
+    }
+
+}

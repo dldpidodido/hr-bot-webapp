@@ -1,15 +1,26 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using BlazorStrap;
+using BlazorStrap.V5;
 using Blazored.Modal;
-
+using hr_bot_webapp_v2.Services;
+using Blazored.LocalStorage;
+using hr_bot_webapp_v2.Pages;
+using hr_bot_webapp_v2.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddBlazorStrap();
 builder.Services.AddBlazoredModal();
+builder.Services.AddSingleton<JobSearchService>();
+builder.Services.AddSingleton<SharedService>();
+builder.Services.AddSingleton<IPGeoLocationService>();
+builder.Services.AddSingleton<JobInitService>();
 
+builder.Services.AddBlazoredLocalStorage();
 
 var app = builder.Build();
 
@@ -17,8 +28,11 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
 }
 
+app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 

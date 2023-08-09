@@ -1,0 +1,60 @@
+﻿<div class="nav-modal-class">
+    <BSListGroup style="max-height: 700px; overflow-y: auto;">
+        @foreach (var language in Languages)
+        {
+            <BSListGroupItem>@language</BSListGroupItem>
+        }
+    </BSListGroup>
+</div>
+@code {
+
+    [CascadingParameter] BlazoredModalInstance BlazoredModal { get; set; } = default!;
+
+    async Task Close() => await BlazoredModal.CloseAsync(ModalResult.Ok(true));
+    async Task Cancel() => await BlazoredModal.CancelAsync();
+
+    // Define the language list
+    private List<string> Languages = new List<string>
+    {
+        "Afrikaans",
+        "Bahasa Indonesia",
+        "Bahasa Melayu",
+        "català",
+        "Čeština",
+        "Dansk",
+        "Deutsch",
+        "English",
+        "Español (España)",
+        "Español (Latinoamérica)",
+        "Français (Canada)",
+        "Français (France)",
+        "Hrvatski",
+        "Italiano",
+        "magyar",
+        "Nederlands",
+        "norsk",
+        "polski",
+        "Português (Brasil)",
+        "Português (Portugal)",
+        "română",
+        "Slovenčina",
+        "Suomi",
+        "Svenska",
+        "Tiếng Việt",
+        "Türkçe",
+        "Ελληνικά",
+        "Русский",
+        "српски (ћирилица)",
+        "Українська",
+        "Հայամ",
+        "עברית",
+        "اردو",
+        "العربية",
+        "हिन्दी",
+        "ไทย",
+        "한국어",
+        "日本語",
+        "简体中文",
+        "繁體中文"
+    };
+}

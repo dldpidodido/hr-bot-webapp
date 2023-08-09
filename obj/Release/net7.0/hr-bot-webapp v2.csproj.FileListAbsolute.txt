@@ -1,0 +1,56 @@
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\appsettings.Development.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\appsettings.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\hr-bot-webapp v2.staticwebassets.runtime.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\hr-bot-webapp v2.exe
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\hr-bot-webapp v2.deps.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\hr-bot-webapp v2.runtimeconfig.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\hr-bot-webapp v2.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\hr-bot-webapp v2.pdb
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\BlazorComponentUtilities.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Blazored.Modal.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\BlazorStrap.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\BlazorStrap.V5.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.AspNetCore.Authorization.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.AspNetCore.Components.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.AspNetCore.Components.Web.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.AspNetCore.Metadata.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.Extensions.Options.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.JSInterop.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Microsoft.JSInterop.WebAssembly.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\OpenAI-DotNet.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.csproj.AssemblyReference.cache
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.GeneratedMSBuildEditorConfig.editorconfig
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.AssemblyInfoInputs.cache
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.AssemblyInfo.cs
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.csproj.CoreCompileInputs.cache
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.MvcApplicationPartsAssemblyInfo.cache
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.RazorAssemblyInfo.cache
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.RazorAssemblyInfo.cs
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\staticwebassets\msbuild.hr-bot-webapp v2.Microsoft.AspNetCore.StaticWebAssets.props
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\staticwebassets\msbuild.build.hr-bot-webapp v2.props
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.hr-bot-webapp v2.props
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.hr-bot-webapp v2.props
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\staticwebassets.pack.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\staticwebassets.build.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\staticwebassets.development.json
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\ChatGPT.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\MenuExtension.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\ModalAccount.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\ModalLanguage.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\NearbyLocations.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\Occupation.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\SiteMap.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\bundle\hr-bot-webapp v2.styles.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\projectbundle\hr-bot-webapp v2.bundle.scp.css
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.csproj.CopyComplete
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\refint\hr-bot-webapp v2.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.pdb
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.genruntimeconfig.cache
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\obj\Release\net7.0\ref\hr-bot-webapp v2.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\RestSharp.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Newtonsoft.Json.dll
+F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\bin\Release\net7.0\Blazored.LocalStorage.dll

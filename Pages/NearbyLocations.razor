@@ -1,4 +1,4 @@
-@page "/nearbylocations"
+﻿@page "/nearbylocations"
 
 <div class="main-menu-list">
     <h5>Nearby Locations</h5>
@@ -7,21 +7,21 @@
     {
         <div class="location-item hoverable">
             <div class="location-icon">
-                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <ion-icon name="location-outline" size="small"></ion-icon>
             </div>
             <div class="location-name">@location.Name</div>
             <div class="location-number">@location.Number</div>
         </div>
     }
 
-    <div class="show-more-less-buttons hoverable-buttons">
+    <div class="show-more-less-buttons hoverable-buttons" >
         @if (visibleLocationsCount < allLocations.Count)
         {
-            <button @onclick="ShowMore">Show More</button>
+            <button @onclick="ShowMore"><span class="text-primary">Show More</span></button>
         }
         else
         {
-            <button @onclick="ShowLess">Show Less</button>
+            <button @onclick="ShowLess"><span class="text-primary">Show Less</span></button>
         }
     </div>
 </div>

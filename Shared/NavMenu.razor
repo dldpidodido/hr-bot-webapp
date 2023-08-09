@@ -1,14 +1,10 @@
-﻿<!-- NavMenu.razor -->
-
-@using hrbot_web_app.Pages
+﻿@using hr_bot_webapp_v2.Pages
 @inject IJSRuntime jsRuntime
 
 <div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <img src="/misc/cherry.png" style="width: 30px;">
-        <a class="navbar-brand nav-item-flex" href="">
-            <span>HRBot</span>
-        </a>
+    <div class="top-icons">
+        <ion-icon name="globe-outline" size="large" @onclick="@(() => ShowModalLanguage(ModalPosition.TopRight))"></ion-icon>
+        <ion-icon name="person-circle-outline" size="large" @onclick="@(() => ShowModalAccount(ModalPosition.TopRight))"></ion-icon>
     </div>
 </div>
 
@@ -21,17 +17,17 @@
         </nav>
         <nav class="flex-column">
             <div class="nav-item-flex px-3">
-                <MenuExtension /> <!-- Include the MenuExtension component here -->
+                <MenuExtension />
             </div>
         </nav>
         <nav class="flex-column">
             <div class="nav-item-flex px-3">
-                <NearbyLocations /> <!-- Include the NearbyLocations component here -->
+                <NearbyLocations />
             </div>
         </nav>
-        <nav class="flex-column">
+         <nav class="flex-column">
             <div class="nav-item-flex px-3">
-                <Occupations /> <!-- Include the Occupations component here -->
+                <Occupation />
             </div>
         </nav>
         <nav class="flex-column">
@@ -42,8 +38,38 @@
     </div>
 </div>
 
-@code {
+
+@code 
+{
     private bool collapseNavMenu = false; // Set to "false" to show the navigation menu by default
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+
+    // Modal Trigger. 
+
+    [CascadingParameter] public IModalService Modal { get; set; } = default!;
+
+    void ShowModalLanguage(ModalPosition position)
+    {
+        var options = new ModalOptions {
+            Class = "nav-modal-class",
+            Position = position, 
+            HideHeader = true
+        };
+
+        Modal.Show<ModalLanguage>($"Position: {position}", options);
+    }
+
+    void ShowModalAccount(ModalPosition position)
+    {
+        var options = new ModalOptions
+            {
+                Class = "nav-modal-class",
+                Position = position,
+                HideHeader = true
+            };
+
+        Modal.Show<ModalAccount>($"Position: {position}", options);
+    }
 }

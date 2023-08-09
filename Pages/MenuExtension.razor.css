@@ -1,4 +1,4 @@
-.main-menu-extension-page {
+﻿.main-menu-extension-page {
     display: flex;
     flex-direction: column;
     overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */

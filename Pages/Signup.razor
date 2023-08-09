@@ -1,0 +1,48 @@
+﻿@page "/signup"
+@inject IJSRuntime jsRuntime
+
+
+<div class="card bg-light" style="max-width: 500px; margin-bottom: 3rem; transform: translate(@xPos, @yPos)">
+    <div class="card-header bg-secondary">
+        <span class="card-text" style="color:white">
+            Sign up
+       </span>
+    </div>
+    <div class="card-body">
+        <span class="card-text" style="color:black">
+            Country/Region
+        </span>
+        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" style="border-radius:13px; margin-top:0.5rem">
+        <br />
+        <span class="card-text" style="color:black">
+            Phone number
+        </span>
+        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" style="border-radius:13px; margin-top:0.5rem">
+
+    </div>
+    <a href="#" class="btn btn-primary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:1rem">Continue</a>
+    <span style="color:black; text-align:center; margin-bottom:0.5rem">OR</span>
+    <a href="#" class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:0.3rem">Continue with Apple</a>
+    <a href="#" class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:0.3rem">Sign up with Github</a>
+    <a href="#" class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:0.3rem">Continue with Google</a>
+    <a href="#" class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:0.3rem">Continue with Facebook</a>
+    <a href="#" class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:2rem">Continue with Email</a>
+
+    <span style="color:black; text-align:left; margin-left:1rem; margin-right:1rem; margin-bottom:2rem; font-size: 16px">
+        By pressing the button above, you agree to our Terms and Privacy Policy, and agree to receive email job alerts. You can unsubscribe anytime.
+    </span>
+</div>
+
+@code {
+
+    private bool IsMobile { get; set; }
+    private string xPos, yPos;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        IsMobile = await jsRuntime.InvokeAsync<bool>("isMobileDevice");
+        xPos = IsMobile ? "0" : "86%"; /* mobile | pc */
+        yPos = IsMobile ? "0" : "5%";
+        StateHasChanged();
+    }
+}
