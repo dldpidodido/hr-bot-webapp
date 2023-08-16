@@ -1,0 +1,23 @@
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\hr-bot-webapp v2.exe
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\appsettings.Development.json
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\appsettings.json
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\hr-bot-webapp v2.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\hr-bot-webapp v2.deps.json
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\hr-bot-webapp v2.runtimeconfig.json
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\hr-bot-webapp v2.pdb
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\BlazorComponentUtilities.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Blazored.LocalStorage.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Blazored.Modal.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\BlazorStrap.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\BlazorStrap.V5.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.AspNetCore.Authorization.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.AspNetCore.Components.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.AspNetCore.Metadata.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.Extensions.Options.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.JSInterop.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\Newtonsoft.Json.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\OpenAI-DotNet.dll
+C:\Users\kittu\AppData\Local\Temp\rider-publish16151332346991395620\RestSharp.dll

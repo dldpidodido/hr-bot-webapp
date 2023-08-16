@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hr_bot_webapp_v2
 build_property.RootNamespace = hr_bot_webapp_v2
-build_property.ProjectDir = F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2\
+build_property.ProjectDir = E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\WebApp\hr-bot-webapp v2\hr-bot-webapp v2
+build_property.MSBuildProjectDirectory = E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/App.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/Analyze.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Analyze.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5hbHl6ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/Index.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/Login.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/Signup.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Signup.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/_Imports.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/ChatGPT.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/ChatGPT.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdEdQVC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-w0nq762lkg
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/MenuExtension.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/MenuExtension.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUV4dGVuc2lvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-jpo6xip85b
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/ModalAccount.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/ModalAccount.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kYWxBY2NvdW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-wdtdfpqjp9
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/ModalLanguage.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/ModalLanguage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kYWxMYW5ndWFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ouqmyozkba
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/NearbyLocations.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/NearbyLocations.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmVhcmJ5TG9jYXRpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-lui29j83wf
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/Occupation.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Occupation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2NjdXBhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-3v7pay6crh
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/SiteMap.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/SiteMap.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2l0ZU1hcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-kj36g6w4hv
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Shared/MainLayout.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3qk2pw75oh
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Shared/NavMenu.razor]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4bzassfquk
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/Error.cshtml]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/WebApp/hr-bot-webapp v2/hr-bot-webapp v2/Pages/_Host.cshtml]
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
