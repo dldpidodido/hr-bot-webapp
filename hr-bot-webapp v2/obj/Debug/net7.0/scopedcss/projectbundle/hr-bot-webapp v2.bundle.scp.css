@@ -50,11 +50,11 @@
 /* Media query for mobile view */
 @media (max-width: 767px) {
     #chatpage[b-w0nq762lkg] {
-        height: 400px; /* Adjust the height for mobile view */
+        height: 20rem; /* Adjust the height for mobile view */
     }
 
     #chatcontainer[b-w0nq762lkg] {
-        height: 400px; /* Adjust the height for mobile view */
+        height: 20rem; /* Adjust the height for mobile view */
     }
 
     .chat-analyzed-button[b-w0nq762lkg] {
