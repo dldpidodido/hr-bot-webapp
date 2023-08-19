@@ -107,3 +107,4 @@ E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Debug\net7.0\refint\
 E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Debug\net7.0\hr-bot-webapp v2.pdb
 E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Debug\net7.0\hr-bot-webapp v2.genruntimeconfig.cache
 E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Debug\net7.0\ref\hr-bot-webapp v2.dll
+E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Debug\net7.0\scopedcss\Shared\Footer.razor.rz.scp.css

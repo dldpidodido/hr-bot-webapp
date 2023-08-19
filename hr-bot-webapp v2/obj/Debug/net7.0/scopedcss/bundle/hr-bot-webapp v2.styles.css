@@ -314,12 +314,13 @@ button[b-3v7pay6crh] {
 /* _content/hr-bot-webapp v2/Pages/SiteMap.razor.rz.scp.css */
 .sitemap-container[b-kj36g6w4hv] {
     position: relative; /* To enable absolute positioning for the text */
-    height: 300px; /* Set the container height as per your requirement */
+    /*height: 300px; !* Set the container height as per your requirement *!*/
+    margin-bottom: 8rem;
 }
 
 .sitemap-centered-text[b-kj36g6w4hv] {
     position: absolute;
-    top: 5;
+    top: 5px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -384,6 +385,92 @@ button[b-3v7pay6crh] {
     flex: 1;
     padding: 10px;
 }
+@media screen and (max-width: 768px) {
+    .sitemap-container[b-kj36g6w4hv] {
+        display: none;
+    }
+}
+/* _content/hr-bot-webapp v2/Shared/Footer.razor.rz.scp.css */
+.sitemap-container[b-xapiy5e6iw] {
+    position: relative; /* To enable absolute positioning for the text */
+    /*height: 300px; !* Set the container height as per your requirement *!*/
+    margin-bottom: 8rem;
+    display: none;
+}
+
+.sitemap-centered-text[b-xapiy5e6iw] {
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.sitemap-icon-container[b-xapiy5e6iw] {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the icons horizontally */
+}
+
+/* Adjust the font size and color of the icons as needed */
+.sitemap-icon[b-xapiy5e6iw] {
+    font-size: 24px;
+    color: #333;
+}
+
+.sitemap-logo[b-xapiy5e6iw] {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 150px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-google-logo[b-xapiy5e6iw] {
+    position: absolute;
+    top: 20%;
+    right: -25%;
+    transform: translateX(-50%);
+    width: 230px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-apple-logo[b-xapiy5e6iw] {
+    position: absolute;
+    top: 0;
+    right: -19%;
+    transform: translateX(-50%);
+    width: 205px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+
+.scan-text[b-xapiy5e6iw] {
+    font-size: 15.2px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 38%;
+}
+
+/* Styling for the rows */
+.sitemap-rows-container[b-xapiy5e6iw] {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.row[b-xapiy5e6iw] {
+    flex: 1;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sitemap-container[b-xapiy5e6iw] {
+        display: block;
+    }
+}
 /* _content/hr-bot-webapp v2/Shared/MainLayout.razor.rz.scp.css */
 .page[b-3qk2pw75oh] {
     position: relative;
@@ -397,6 +484,10 @@ main[b-3qk2pw75oh] {
 
 .sidebar[b-3qk2pw75oh] {
     /*background-color: #f7f7f7;*/
+}
+
+.footer-hide[b-3qk2pw75oh] {
+    display: block;
 }
 
 .top-row[b-3qk2pw75oh] {
@@ -428,6 +519,10 @@ main[b-3qk2pw75oh] {
 
     .top-row a[b-3qk2pw75oh], .top-row .btn-link[b-3qk2pw75oh] {
         margin-right: 0; /* Change 'margin-left' to 'margin-right' */
+    }
+
+    .footer-hide[b-3qk2pw75oh] {
+        display: block;
     }
 }
 

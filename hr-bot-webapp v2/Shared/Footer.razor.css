@@ -1,0 +1,80 @@
+﻿.sitemap-container {
+    position: relative; /* To enable absolute positioning for the text */
+    /*height: 300px; !* Set the container height as per your requirement *!*/
+    margin-bottom: 8rem;
+    display: none;
+}
+
+.sitemap-centered-text {
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.sitemap-icon-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the icons horizontally */
+}
+
+/* Adjust the font size and color of the icons as needed */
+.sitemap-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.sitemap-logo {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 150px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-google-logo {
+    position: absolute;
+    top: 20%;
+    right: -25%;
+    transform: translateX(-50%);
+    width: 230px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-apple-logo {
+    position: absolute;
+    top: 0;
+    right: -19%;
+    transform: translateX(-50%);
+    width: 205px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+
+.scan-text {
+    font-size: 15.2px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 38%;
+}
+
+/* Styling for the rows */
+.sitemap-rows-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.row {
+    flex: 1;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sitemap-container {
+        display: block;
+    }
+}

@@ -1,219 +1,220 @@
 ﻿@page "/chatgpt"
 
 <div id="chatpage">
-	<button class="chat-analyzed-button btn btn-primary" @onclick="GoToAnalyzePage">
-		<span class="button-text">Analyze Resume / CV</span>
-	</button>
+    <button class="chat-analyzed-button btn btn-primary" @onclick="GoToAnalyzePage">
+        <span class="button-text">Analyze Resume / CV</span>
+    </button>
 
-	<div id="chatcontainer">
-		@foreach (var item in messages)
-		{
-			<div>
-				@if (item.Role == "user")
-				{
-					<div class="user-message">
-						<b>User</b>
-					</div>
-					<div class="btn btn-secondary user">
-						<div class="msg">
-							@item.Prompt
-						</div>
-					</div>
-				}
-				else
-				{
-					<div class="chatgpt-message">
-						<b>HRBot&nbsp;&nbsp;</b>
-					</div>
-					<div class="chatgpt">
-						<div class="msg" style="padding:0.6rem">
-							@if (item.Prompt != null)
-							{
-								@item.Prompt
-							}
-						</div>
-					</div>
-				}
-			</div>
-		}
-		@if (_isLoading)
-		{
-			<div class="d-flex justify-content-center">
-				<div class="spinner-border" role="status">
-				</div>
-			</div>
-		}
-	</div>
+    <div id="chatcontainer">
+        @foreach (var item in messages)
+        {
+            <div>
+                @if (item.Role == "user")
+                {
+                    <div class="chatgpt-message">
+                        <b>User</b>
+                    </div>
+                    <div class="chatgpt">
+                        <div class="msg" style="padding:0.6rem">
+                            @item.Prompt
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="user-message">
+                        <b>HRBot&nbsp;&nbsp;</b>
+                    </div>
+                    <div class="btn btn-secondary user">
+                        <div class="msg" style="padding:0.6rem">
+                            @if (item.Prompt != null)
+                            {
+                                @item.Prompt
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        @if (_isLoading)
+        {
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                </div>
+            </div>
+        }
+    </div>
 
-	<div class="input-container">
-		<input type="text"
-			   class="form-control"
-			   placeholder="Send message"
-		@bind="prompt" />
+    <div class="input-container">
+        <input type="text"
+               class="form-control"
+               placeholder="Send message"
+               @bind="prompt"/>
 
-		<button class="btn btn-primary" @onclick="StartChatGPTService">
-			<ion-icon name="send-outline" size="small"></ion-icon> <!-- Send icon from FontAwesome -->
-		</button>
-	</div>
+        <button class="btn btn-primary" @onclick="StartChatGPTService">
+            <ion-icon name="send-outline" size="small"></ion-icon> <!-- Send icon from FontAwesome -->
+        </button>
+    </div>
 </div>
 
 @using hr_bot_webapp_v2.Services;
 @inject SharedService SharedService
 
 @code {
-	string ApiKey = string.Empty;
-	string ErrorMessage = string.Empty;
-	public string prompt = string.Empty;
-	bool _isLoading = false;
-	int TotalTokens = 0;
-	string f_prompt = string.Empty;
+    string ApiKey = string.Empty;
+    string ErrorMessage = string.Empty;
+    public string prompt = string.Empty;
+    bool _isLoading = false;
+    int TotalTokens = 0;
+    string f_prompt = string.Empty;
 
-	[Inject]
-	private NavigationManager NavigationManager { get; set; }
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
 
-	public List<Message> messages = new List<Message>();
+    public List<Message> messages = new List<Message>();
 
-	private readonly string _chatBotKnowledgeScope =
-		"Your name is HRBot, You are an assistant that help users provide list of recomendations on they need to change on their resume." +
-		"When user's question is not related to Job or the CV/ Resume, reply politely that you can not answer" +
-		"Make a bullet for recommendation for the possible job positions can be apply base on the CV/Resume";
+    private readonly string _chatBotKnowledgeScope =
+        "Your name is HRBot, You are an assistant that help users provide list of recomendations on they need to change on their resume." +
+        "When user's question is not related to Job or the CV/ Resume, reply politely that you can not answer" +
+        "Make a bullet for recommendation for the possible job positions can be apply base on the CV/Resume";
 
-	protected override void OnInitialized()
-	{
-		SharedService.StartChatGPTServiceDirectInstance = StartChatGPTServiceDirectInstance;
+    protected override void OnInitialized()
+    {
+        SharedService.StartChatGPTServiceDirectInstance = StartChatGPTServiceDirectInstance;
 
-		ApiKey = _configuration["OpenAISettings:ApiKey"] ?? "";
-		messages.Add(new Message
-		{
-			Prompt = "Hello! I can help you find job opportunities. What type of job are you looking for?",
-			Role = "assistant"
-		});
-	}
+        ApiKey = _configuration["OpenAISettings:ApiKey"] ?? "";
+        messages.Add(new Message
+        {
+            Prompt = "Hello! I can help you find job opportunities. What type of job are you looking for?",
+            Role = "assistant"
+        });
+    }
 
-	protected override async Task OnAfterRenderAsync(bool firstRender)
-	{
-		await _jsRuntime.InvokeAsync<string>("ScrollToBottom", "chatcontainer");
-	}
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await _jsRuntime.InvokeAsync<string>("ScrollToBottom", "chatcontainer");
+    }
 
-	public async Task StartChatGPTService()
-	{
-		try
-		{
-			StateHasChanged();
-			ErrorMessage = string.Empty;
-			_isLoading = true;
+    public async Task StartChatGPTService()
+    {
+        try
+        {
+            StateHasChanged();
+            ErrorMessage = string.Empty;
+            _isLoading = true;
 
-			var _openAIClient = new OpenAIClient(new OpenAIAuthentication(ApiKey));
+            var _openAIClient = new OpenAIClient(new OpenAIAuthentication(ApiKey));
 
-			var chatPromptList = new List<ChatPrompt>();
+            var chatPromptList = new List<ChatPrompt>();
 
-			foreach (var item in messages)
-			{
-				chatPromptList.Add(new ChatPrompt(item.Role, item.Prompt));
-				Console.WriteLine(item.ToString());
-			}
+            foreach (var item in messages)
+            {
+                chatPromptList.Add(new ChatPrompt(item.Role, item.Prompt));
+                Console.WriteLine(item.ToString());
+            }
 
-			chatPromptList.Add(new ChatPrompt("user", _chatBotKnowledgeScope + prompt));
+            chatPromptList.Add(new ChatPrompt("user", _chatBotKnowledgeScope + prompt));
 
-			var chatRequest = new ChatRequest(chatPromptList);
-			var result = await _openAIClient.ChatEndpoint.GetCompletionAsync(chatRequest);
+            var chatRequest = new ChatRequest(chatPromptList);
+            var result = await _openAIClient.ChatEndpoint.GetCompletionAsync(chatRequest);
 
-			messages.Add(new Message
-				{
-					Prompt = prompt,
-					Role = "user",
-					Tokens = result.Usage.PromptTokens
-				});
-			messages.Add(new Message
-				{
-					Prompt = result.FirstChoice.Message,
-					Role = "assistant",
-					Tokens = result.Usage.CompletionTokens
-				});
+            messages.Add(new Message
+            {
+                Prompt = prompt,
+                Role = "user",
+                Tokens = result.Usage.PromptTokens
+            });
+            messages.Add(new Message
+            {
+                Prompt = result.FirstChoice.Message,
+                Role = "assistant",
+                Tokens = result.Usage.CompletionTokens
+            });
 
-			TotalTokens = TotalTokens + result.Usage.TotalTokens;
-		}
-		catch (Exception ex)
-		{
-			ErrorMessage = ex.Message;
-		}
-		finally
-		{
-			prompt = string.Empty;
-			_isLoading = false;
-			StateHasChanged();
-		}
-	}
+            TotalTokens = TotalTokens + result.Usage.TotalTokens;
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = ex.Message;
+        }
+        finally
+        {
+            prompt = string.Empty;
+            _isLoading = false;
+            StateHasChanged();
+        }
+    }
 
-	public async Task<string> StartChatGPTServiceDirectInstance(string p)
-	{
-		ErrorMessage = string.Empty;
-		_isLoading = true;
-		try
-		{
-			StateHasChanged();
+    public async Task<string> StartChatGPTServiceDirectInstance(string p)
+    {
+        ErrorMessage = string.Empty;
+        _isLoading = true;
+        try
+        {
+            StateHasChanged();
 
-			var _openAIClient = new OpenAIClient(new OpenAIAuthentication(ApiKey));
+            var _openAIClient = new OpenAIClient(new OpenAIAuthentication(ApiKey));
 
-			var chatPromptList = new List<ChatPrompt>();
+            var chatPromptList = new List<ChatPrompt>();
 
-			foreach (var item in messages)
-			{
-				chatPromptList.Add(new ChatPrompt(item.Role, item.Prompt));
-				Console.WriteLine(item.ToString());
-			}
+            foreach (var item in messages)
+            {
+                chatPromptList.Add(new ChatPrompt(item.Role, item.Prompt));
+                Console.WriteLine(item.ToString());
+            }
 
-			chatPromptList.Add(new ChatPrompt("user", _chatBotKnowledgeScope + p));
+            chatPromptList.Add(new ChatPrompt("user", _chatBotKnowledgeScope + p));
 
-			var chatRequest = new ChatRequest(chatPromptList);
-			var result = await _openAIClient.ChatEndpoint.GetCompletionAsync(chatRequest);
+            var chatRequest = new ChatRequest(chatPromptList);
+            var result = await _openAIClient.ChatEndpoint.GetCompletionAsync(chatRequest);
 
-			messages.Add(new Message
-				{
-					Prompt = "Analyze Resume/ CV",
-					Role = "user",
-					Tokens = result.Usage.PromptTokens
-				});
+            messages.Add(new Message
+            {
+                Prompt = "Analyze Resume/ CV",
+                Role = "user",
+                Tokens = result.Usage.PromptTokens
+            });
 
-			messages.Add(new Message
-				{
-					Prompt = result.FirstChoice.Message,
-					Role = "assistant",
-					Tokens = result.Usage.CompletionTokens
-				});
-			TotalTokens = TotalTokens + result.Usage.TotalTokens;
-			f_prompt = result.FirstChoice.Message;
-		}
-		catch (Exception ex)
-		{
-			ErrorMessage = ex.Message;
-		}
-		finally
-		{
-			prompt = string.Empty;
-			_isLoading = false;
-			StateHasChanged();
-		}
-		return f_prompt;
-	}
+            messages.Add(new Message
+            {
+                Prompt = result.FirstChoice.Message,
+                Role = "assistant",
+                Tokens = result.Usage.CompletionTokens
+            });
+            TotalTokens = TotalTokens + result.Usage.TotalTokens;
+            f_prompt = result.FirstChoice.Message;
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = ex.Message;
+        }
+        finally
+        {
+            prompt = string.Empty;
+            _isLoading = false;
+            StateHasChanged();
+        }
+        return f_prompt;
+    }
 
-	void Clear()
-	{
-		messages = new List<Message>();
-		TotalTokens = 0;
-		ErrorMessage = string.Empty;
-		StateHasChanged();
-	}
+    void Clear()
+    {
+        messages = new List<Message>();
+        TotalTokens = 0;
+        ErrorMessage = string.Empty;
+        StateHasChanged();
+    }
 
-	private void GoToAnalyzePage()
-	{
-		NavigationManager.NavigateTo("/analyze");
-	}
+    private void GoToAnalyzePage()
+    {
+        NavigationManager.NavigateTo("/analyze");
+    }
 
-	public class Message
-	{
-		public string? Prompt { get; set; }
-		public string? Role { get; set; }
-		public int Tokens { get; set; }
-	}
+    public class Message
+    {
+        public string? Prompt { get; set; }
+        public string? Role { get; set; }
+        public int Tokens { get; set; }
+    }
+
 }

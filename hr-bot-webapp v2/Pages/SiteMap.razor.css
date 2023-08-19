@@ -1,11 +1,12 @@
 ﻿.sitemap-container {
     position: relative; /* To enable absolute positioning for the text */
-    height: 300px; /* Set the container height as per your requirement */
+    /*height: 300px; !* Set the container height as per your requirement *!*/
+    margin-bottom: 8rem;
 }
 
 .sitemap-centered-text {
     position: absolute;
-    top: 5;
+    top: 5px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -69,4 +70,9 @@
 .row {
     flex: 1;
     padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .sitemap-container {
+        display: none;
+    }
 }

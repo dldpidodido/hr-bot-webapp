@@ -16,22 +16,22 @@
             </div>
         </nav>
         <nav class="flex-column">
-            <div class="nav-item-flex px-3">
+            <div class="nav-item px-3">
                 <MenuExtension />
             </div>
         </nav>
         <nav class="flex-column">
-            <div class="nav-item-flex px-3">
+            <div class="nav-item px-3">
                 <NearbyLocations />
             </div>
         </nav>
          <nav class="flex-column">
-            <div class="nav-item-flex px-3">
+            <div class="nav-item px-3">
                 <Occupation />
             </div>
         </nav>
         <nav class="flex-column">
-            <div class="nav-item-flex px-3">
+            <div class="nav-item px-3">
                 <SiteMap /> <!-- Include the Occupations component here -->
             </div>
         </nav>
@@ -39,14 +39,14 @@
 </div>
 
 
-@code 
+@code
 {
     private bool collapseNavMenu = false; // Set to "false" to show the navigation menu by default
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
 
-    // Modal Trigger. 
+    // Modal Trigger.
 
     [CascadingParameter] public IModalService Modal { get; set; } = default!;
 
@@ -54,7 +54,7 @@
     {
         var options = new ModalOptions {
             Class = "nav-modal-class",
-            Position = position, 
+            Position = position,
             HideHeader = true
         };
 

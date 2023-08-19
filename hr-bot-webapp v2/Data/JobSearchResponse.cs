@@ -1,7 +1,4 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
-
-namespace hr_bot_webapp_v2.Data
+﻿namespace hr_bot_webapp_v2.Data
 {
     public class JobData
     {
