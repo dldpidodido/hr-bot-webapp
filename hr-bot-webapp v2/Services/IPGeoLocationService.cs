@@ -1,18 +1,12 @@
 ﻿using hr_bot_webapp_v2.Data;
 using RestSharp;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace hr_bot_webapp_v2.Services
 {
     public class IPGeoLocationService
     {
-        private readonly RestClient _client;
-
-        public IPGeoLocationService()
-        {
-            _client = new RestClient("https://ip-geo-location.p.rapidapi.com");
-        }
+        private readonly RestClient _client = new("https://ip-geo-location.p.rapidapi.com");
 
         public async Task<IPGeoLocationResponse> GetLocation()
         {

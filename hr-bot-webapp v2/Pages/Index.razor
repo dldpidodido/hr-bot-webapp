@@ -86,9 +86,6 @@
                 <h2>@j.refTitle in @(loc?.Country?.Name ?? "Unknown Location")</h2>
             </div>
             <div class="jobs-actions">
-                <div class="analyze-all-button">
-                    <span class="button-text">Analyze All</span>
-                </div>
                 <div class="menu-icon">
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
@@ -171,7 +168,7 @@ else
             } };
         }
        GetJobInstance();
-    }   
+    }
 
     public async Task GetJobInstance ()
     {
@@ -206,7 +203,7 @@ else
     private async Task<List<JobData>> SearchJobs(string title, string location)
     {
         var response = await JobSearchService.SearchJobs(title, location, 1, 1);
-        // Handle the response 
+        // Handle the response
         return response?.data ?? new List<JobData>();
     }
 
