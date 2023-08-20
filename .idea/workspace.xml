@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0d77000a-2da0-4887-9b67-6e761438a613" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/ButtonTest.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/index.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Services/Global.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/ChatGPT.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/ChatGPT.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/NearbyLocations.razor" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/NearbyLocations.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/Occupation.razor" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Pages/Occupation.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/Services/IPGeoLocationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Services/IPGeoLocationService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/Services/JobSearchService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/Services/JobSearchService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/bin/Debug/net7.0/hr-bot-webapp v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/bin/Debug/net7.0/hr-bot-webapp v2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/bin/Debug/net7.0/hr-bot-webapp v2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/bin/Debug/net7.0/hr-bot-webapp v2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/hr-bot-webapp v2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/ref/hr-bot-webapp v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/ref/hr-bot-webapp v2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/refint/hr-bot-webapp v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/refint/hr-bot-webapp v2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/scopedcss/Pages/ChatGPT.razor.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/scopedcss/Pages/ChatGPT.razor.rz.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/scopedcss/bundle/hr-bot-webapp v2.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/scopedcss/bundle/hr-bot-webapp v2.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/scopedcss/projectbundle/hr-bot-webapp v2.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/Debug/net7.0/scopedcss/projectbundle/hr-bot-webapp v2.bundle.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-bot-webapp v2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/hr-bot-webapp v2/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -14,8 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
+  "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2UFE8lPzp1VlTot2xTWY2WEv4pe" />
   <component name="ProjectViewState">
@@ -28,6 +52,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "dev/kit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -40,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692526772208</updated>
       <workItem from="1692526774737" duration="10000" />
+      <workItem from="1692540939978" duration="593000" />
     </task>
     <servers />
   </component>

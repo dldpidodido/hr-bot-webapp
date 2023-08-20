@@ -110,3 +110,5 @@ E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Release\net7.0\refin
 E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.pdb
 E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Release\net7.0\hr-bot-webapp v2.genruntimeconfig.cache
 E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Release\net7.0\ref\hr-bot-webapp v2.dll
+E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Pages\index.razor.rz.scp.css
+E:\Documents\WebProjects\hr-bot-webapp\hr-bot-webapp v2\obj\Release\net7.0\scopedcss\Shared\Footer.razor.rz.scp.css

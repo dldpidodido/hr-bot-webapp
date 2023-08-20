@@ -17,6 +17,29 @@ public class JobPosts: IList
 {
     public List<JobData> jobs;
 
+    public class LocationItem
+    {
+        public string Name { get; set; }
+        public string Number { get; set; }
+    }
+
+    public List<LocationItem> GetLocationItemList()
+    {
+        var jobToList = jobs.GroupBy(job => job.job_city)
+            .Select(group => new LocationItem
+            {
+                Name = group.Key,
+                Number = group.Count().ToString()
+            }).ToList();
+
+        foreach (var item in jobToList)
+        {
+            Console.WriteLine($"Job {item.Name}, {item.Number}");
+        }
+
+        return jobToList;
+    }
+
     public void Clear()
     {
         jobs.Clear();

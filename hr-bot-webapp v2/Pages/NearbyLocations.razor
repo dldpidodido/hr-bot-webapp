@@ -1,67 +1,96 @@
 ﻿@page "/nearbylocations"
+@using hr_bot_webapp_v2.Services
+
 
 <div class="main-menu-list">
     <h5>Nearby Locations</h5>
 
-    @foreach (var location in GetVisibleLocations())
+    @if (allLocations != null)
     {
-        <div class="location-item hoverable">
-            <div class="location-icon">
-                <ion-icon name="location-outline" size="small"></ion-icon>
+        @foreach (var location in GetVisibleLocations().Where(location => !string.IsNullOrWhiteSpace(@location.Name)))
+        {
+            <div class="location-item hoverable">
+                <div class="location-icon">
+                    <ion-icon name="location-outline" size="small"></ion-icon>
+                </div>
+                <div class="location-name">@location.Name</div>
+                <div class="location-number">@location.Number</div>
             </div>
-            <div class="location-name">@location.Name</div>
-            <div class="location-number">@location.Number</div>
+        }
+
+        <div class="show-more-less-buttons hoverable-buttons" >
+            @if (visibleLocationsCount < allLocations.Count)
+            {
+                <button @onclick="ShowMore"><span class="text-primary">Show More</span></button>
+            }
+            else
+            {
+                <button @onclick="ShowLess"><span class="text-primary">Show Less</span></button>
+            }
         </div>
     }
-
-    <div class="show-more-less-buttons hoverable-buttons" >
-        @if (visibleLocationsCount < allLocations.Count)
-        {
-            <button @onclick="ShowMore"><span class="text-primary">Show More</span></button>
-        }
-        else
-        {
-            <button @onclick="ShowLess"><span class="text-primary">Show Less</span></button>
-        }
-    </div>
+    else
+    {
+        <p>Loading jobs...</p>
+    }
 </div>
 
 @code {
     private int visibleLocationsCount = 5; // Number of locations to show initially
-    private List<LocationItem> allLocations; // Declare the field here
+    private List<JobPosts.LocationItem> allLocations; // Declare the field here
 
     public int num;
 
-    private class LocationItem
+    protected override async void OnInitialized()
     {
-        public string Name { get; set; }
-        public string Number { get; set; }
+        await GenerateAllLocationsAsync();
     }
 
-    protected override void OnInitialized()
-    {
-        allLocations = GenerateAllLocations(); // Initialize the field in the OnInitialized method
-    }
+    // protected override void OnInitialized()
+    // {
+    //     allLocations = GenerateAllLocations(); // Initialize the field in the OnInitialized method
+    // }
 
-    private List<LocationItem> GenerateAllLocations()
+    private List<JobPosts.LocationItem> GenerateAllLocations()
     {
-        return new List<LocationItem>
+        // while (Global.JobPosts.jobs == null)
+        // {
+        //
+        // }
+        //
+        // return Global.JobPosts.GetLocationItemList();
+        // return Global.JobPosts.GetLocationItemList();
+        return new List<JobPosts.LocationItem>
         {
-            new LocationItem { Name = "Taytay", Number = "182" },
-            new LocationItem { Name = "Pasig", Number = "2,672" },
-            new LocationItem { Name = "Muntinlupa", Number = "1,076" },
-            new LocationItem { Name = "Caloocan", Number = "218" },
-            new LocationItem { Name = "Cavite City", Number = "1,006" },
-            new LocationItem { Name = "Biñan", Number = "228" },
-            new LocationItem { Name = "Noveleta", Number = "96" },
-            new LocationItem { Name = "Dasmariñas", Number = "151" },
-            new LocationItem { Name = "Calamba", Number = "93" },
-            new LocationItem { Name = "Lumban", Number = "162" },
-            // Add more locations here, if needed
+            new JobPosts.LocationItem { Name = "Taytay", Number = "182" },
+            new JobPosts.LocationItem { Name = "Pasig", Number = "2,672" },
+            new JobPosts.LocationItem { Name = "Muntinlupa", Number = "1,076" },
+            new JobPosts.LocationItem { Name = "Caloocan", Number = "218" },
+            new JobPosts.LocationItem { Name = "Cavite City", Number = "1,006" },
+            new JobPosts.LocationItem { Name = "Biñan", Number = "228" },
+            new JobPosts.LocationItem { Name = "Noveleta", Number = "96" },
+            new JobPosts.LocationItem { Name = "Dasmariñas", Number = "151" },
+            new JobPosts.LocationItem { Name = "Calamba", Number = "93" },
+            new JobPosts.LocationItem { Name = "Lumban", Number = "162" },
+    // Add more locations here, if needed
         };
     }
 
-    private List<LocationItem> GetVisibleLocations()
+    private async Task GenerateAllLocationsAsync()
+    {
+        while (Global.JobPosts.jobs == null)
+        {
+            if (Global.JobPosts.jobs == null)
+            {
+                await Task.Delay(1000); // Wait for 1 second
+            }
+        }
+
+        allLocations = Global.JobPosts.GetLocationItemList();
+        StateHasChanged();
+    }
+
+    private List<JobPosts.LocationItem> GetVisibleLocations()
     {
         return allLocations.Take(visibleLocationsCount).ToList();
     }
@@ -78,15 +107,5 @@
     private void ShowLess()
     {
         visibleLocationsCount = 5; // Show the initial number of locations
-    }
-
-    [Parameter]
-    public EventCallback<int> onClick { get; set; }
-    private int count;
-
-    private void Click()
-    {
-        count++;
-        onClick.InvokeAsync(count);
     }
 }

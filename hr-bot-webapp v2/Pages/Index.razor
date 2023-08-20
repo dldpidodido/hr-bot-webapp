@@ -124,7 +124,7 @@ else
 
         foreach (JobInitService.JobInit j in jobInits)
         {
-            Console.WriteLine("Ref tef hehe> " + j.refTitle);
+            Console.WriteLine("Ref > " + j.refTitle);
             Console.WriteLine($"Location {loc.City?.Name}");
             var result = await SearchJobs(j.refTitle, loc.Country?.Name, 10);
             j.Jobs = new List<JobData>(result);
@@ -136,12 +136,11 @@ else
             var rand = new Random();
             var randomIndex = rand.Next(10);
 
-            if(Global.JobPosts.jobs != null)
-                Global.JobPosts.jobs.Clear();
+            Global.JobPosts.jobs = null;
 
             while (Global.JobPosts.jobs == null)
             {
-                Global.JobPosts.jobs = await SearchJobs(Global.Occupation.allOccupations[randomIndex].Name, loc.City?.Name, 25);
+                Global.JobPosts.jobs = await SearchJobs(Global.Occupation.allOccupations[randomIndex].Name, loc.City?.Name, 35);
 
                 if (Global.JobPosts.jobs == null)
                 {
@@ -149,7 +148,7 @@ else
                 }
             }
 
-            // var jobs = new List<JobData>(Global.JobPosts.jobs);
+    // var jobs = new List<JobData>(Global.JobPosts.jobs);
             foreach (var job in Global.JobPosts.jobs)
             {
                 Console.WriteLine($"Job Title {job.job_title}, city {job.job_city}");

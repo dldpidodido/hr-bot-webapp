@@ -12,6 +12,10 @@ main[b-3qk2pw75oh] {
     /*background-color: #f7f7f7;*/
 }
 
+.footer-hide[b-3qk2pw75oh] {
+    display: block;
+}
+
 .top-row[b-3qk2pw75oh] {
     background: #c2c9d2;
     justify-content: flex-start; /* Change 'flex-end' to 'flex-start' */
@@ -41,6 +45,10 @@ main[b-3qk2pw75oh] {
 
     .top-row a[b-3qk2pw75oh], .top-row .btn-link[b-3qk2pw75oh] {
         margin-right: 0; /* Change 'margin-left' to 'margin-right' */
+    }
+
+    .footer-hide[b-3qk2pw75oh] {
+        display: block;
     }
 }
 
