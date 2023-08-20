@@ -1,0 +1,16 @@
+﻿@using System.Diagnostics
+<button @onclick="Clicked">Click me!</button>
+<p>@p</p>
+
+@code {
+
+    int clickCount = 0;
+    string p;
+    private void Clicked()
+    {
+        clickCount++;
+        p = clickCount == 1 ? $"Clicked {clickCount} time" : $"Clicked {clickCount} times";
+
+        Debug.Write("Clicked!");
+    }
+}

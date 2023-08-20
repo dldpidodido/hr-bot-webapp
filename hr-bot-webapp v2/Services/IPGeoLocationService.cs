@@ -23,5 +23,7 @@ namespace hr_bot_webapp_v2.Services
             IPGeoLocationResponse locationData = JsonConvert.DeserializeObject<IPGeoLocationResponse>(response.Content);
             return locationData;
         }
+
+
     }
 }

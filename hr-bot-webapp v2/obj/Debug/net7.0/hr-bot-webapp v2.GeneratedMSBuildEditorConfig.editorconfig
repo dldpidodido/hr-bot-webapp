@@ -24,8 +24,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5hbHl6ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/ButtonTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV0dG9uVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Login.razor]
@@ -43,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 [E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/ChatGPT.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdEdQVC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-w0nq762lkg
+
+[E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tqtll36av4
 
 [E:/Documents/WebProjects/hr-bot-webapp/hr-bot-webapp v2/Pages/MenuExtension.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUV4dGVuc2lvbi5yYXpvcg==

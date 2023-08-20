@@ -1,76 +1,6 @@
 ﻿@page "/"
 @inject IJSRuntime jsRuntime
 
-<style>
-    /* Container for centering */
-    .card-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        overflow-y: auto; /* Add vertical scroll */
-        overflow-x: hidden; /* Disable horizontal scroll */
-    }
-
-    /* Card styles */
-    .card {
-        border-radius: 10px; /* Add rounded corners */
-        width: 100%; /* Adjust to fit the screen */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-        margin: 5px 0; /* Add vertical margin for space between cards */
-    }
-
-    /* Card header styles */
-    .card-header {
-        border-bottom-left-radius: 0.5rem;
-        border-bottom-right-radius: 0.5rem;
-    }
-
-    /* Card body styles */
-    .card-body {
-        padding: 15px;
-    }
-
-    /* Card title and location/time styles */
-    .card-title-wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .job-card-location-time {
-        display: flex;
-        align-items: center;
-    }
-
-    .job-card-location,
-    .job-card-posted-date {
-        margin-left: 10px;
-    }
-
-    .jobs-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .jobs-actions {
-        display: flex;
-        align-items: center;
-    }
-
-    .analyze-all-button {
-        margin-right: 10px;
-        border-radius: 20px;
-        background-color: #ccc;
-        padding: 5px 30px;
-    }
-
-    .button-text {
-        color: #fff;
-    }
-
-</style>
 
 @if (loc != null)
 {
@@ -111,7 +41,9 @@
                                 <div class="job-card-team-info">
                                     <span>@job.employer_name</span>
                                     <span class="job-card-subtitle-divider">&nbsp;·</span>
-                                    <span class="job-card-short-desc"><span class="job-card-subtitle-divider">&nbsp;</span>@job.job_naics_name</span>
+                                    <span class="job-card-short-desc">
+                                        <span class="job-card-subtitle-divider">&nbsp;</span>@job.job_naics_name
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +61,6 @@
                 <p>Loading jobs...</p>
             }
         </div>
-
     }
 }
 else
@@ -151,33 +82,40 @@ else
 
     IPGeoLocationResponse loc = null;
 
+    int count;
+
     protected override async void OnInitialized()
     {
         jobInits = await localStorage.GetItemAsync<List<JobInitService.JobInit>>("JobInits");
         if (jobInits == null)
         {
-            jobInits = new List<JobInitService.JobInit>(){
-                new JobInitService.JobInit {
+            jobInits = new List<JobInitService.JobInit>()
+            {
+                new JobInitService.JobInit
+                {
                     refTitle = "New jobs",
-                    },
-                    new JobInitService.JobInit {
+                },
+                new JobInitService.JobInit
+                {
                     refTitle = "Popular jobs",
-                    },
-                    new JobInitService.JobInit {
+                },
+                new JobInitService.JobInit
+                {
                     refTitle = "Education Administrator jobs"
-            } };
+                }
+            };
         }
-       GetJobInstance();
+        GetJobInstance();
     }
 
-    public async Task GetJobInstance ()
+    public async Task GetJobInstance()
     {
-        // Generate 10 random jobs
+    // Generate 10 random jobs
         while (loc?.Country?.Name == null)
         {
             loc = await IPGeoLocationService.GetLocation();
 
-            // If the country is still null, wait for a short delay before trying again
+    // If the country is still null, wait for a short delay before trying again
             if (loc?.Country?.Name == null)
             {
                 await Task.Delay(1000); // Wait for 1 second
@@ -186,9 +124,36 @@ else
 
         foreach (JobInitService.JobInit j in jobInits)
         {
-            Console.WriteLine("Ref tef > " + j.refTitle);
-            var result = await SearchJobs(j.refTitle, loc.Country?.Name);
+            Console.WriteLine("Ref tef hehe> " + j.refTitle);
+            Console.WriteLine($"Location {loc.City?.Name}");
+            var result = await SearchJobs(j.refTitle, loc.Country?.Name, 10);
             j.Jobs = new List<JobData>(result);
+        }
+
+    // get random job then search for jobs within certain radius
+        if (jobInits.Count > 0)
+        {
+            var rand = new Random();
+            var randomIndex = rand.Next(10);
+
+            if(Global.JobPosts.jobs != null)
+                Global.JobPosts.jobs.Clear();
+
+            while (Global.JobPosts.jobs == null)
+            {
+                Global.JobPosts.jobs = await SearchJobs(Global.Occupation.allOccupations[randomIndex].Name, loc.City?.Name, 25);
+
+                if (Global.JobPosts.jobs == null)
+                {
+                    await Task.Delay(1000); // Wait for 1 second
+                }
+            }
+
+            // var jobs = new List<JobData>(Global.JobPosts.jobs);
+            foreach (var job in Global.JobPosts.jobs)
+            {
+                Console.WriteLine($"Job Title {job.job_title}, city {job.job_city}");
+            }
         }
 
         StateHasChanged(); // Request a re-render
@@ -200,10 +165,10 @@ else
         await localStorage.SetItemAsync("JobInit", jobInits);
     }
 
-    private async Task<List<JobData>> SearchJobs(string title, string location)
+    private async Task<List<JobData>> SearchJobs(string title, string location, int radius)
     {
-        var response = await JobSearchService.SearchJobs(title, location, 1, 1);
-        // Handle the response
+        var response = await JobSearchService.SearchJobs(title, location, 1, 1, radius);
+    // Handle the response
         return response?.data ?? new List<JobData>();
     }
 
@@ -223,9 +188,10 @@ else
 
     public static DateTime UnixTimeStampToDateTime(double unixTimeStamp)
     {
-        // Unix timestamp is seconds past epoch
+    // Unix timestamp is seconds past epoch
         DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
         dateTime = dateTime.AddSeconds(unixTimeStamp).ToLocalTime();
         return dateTime;
     }
+
 }

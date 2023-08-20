@@ -30,6 +30,8 @@
     private int visibleLocationsCount = 5; // Number of locations to show initially
     private List<LocationItem> allLocations; // Declare the field here
 
+    public int num;
+
     private class LocationItem
     {
         public string Name { get; set; }
@@ -76,5 +78,15 @@
     private void ShowLess()
     {
         visibleLocationsCount = 5; // Show the initial number of locations
+    }
+
+    [Parameter]
+    public EventCallback<int> onClick { get; set; }
+    private int count;
+
+    private void Click()
+    {
+        count++;
+        onClick.InvokeAsync(count);
     }
 }
