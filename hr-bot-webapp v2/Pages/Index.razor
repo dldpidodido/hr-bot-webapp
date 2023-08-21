@@ -78,6 +78,9 @@ else
 
 @code {
 
+    [Inject]
+    protected IJSRuntime JSRuntime { get; set; }
+
     private List<JobInitService.JobInit> jobInits = new List<JobInitService.JobInit>();
 
     IPGeoLocationResponse loc = null;

@@ -8,7 +8,7 @@
         <BSListGroupItem>
             <div class="d-flex align-items-center">
                 <span class="ml-2" style="margin:0; padding-right:10rem">Dark Mode</span>
-                <BSInputSwitch CheckedValue="@("dark")" UnCheckedValue="@("light")" @bind-Value="Value" @onchange="@(() => SetTheme())"></BSInputSwitch>
+                <BSInputSwitch CheckedValue="@("dark")" UnCheckedValue="@("light")" @bind-Value="Value"></BSInputSwitch>
             </div>
         </BSListGroupItem>
     <BSListGroupItem>Help</BSListGroupItem>
@@ -18,7 +18,20 @@
 @code {
 
     [CascadingParameter] BlazoredModalInstance BlazoredModal { get; set; } = default!;
-    private string Value { get; set; } = "dark";
+    private string _value = "dark";
+
+    private string Value
+    {
+        get => _value;
+        set
+        {
+            if (_value != value)
+            {
+                _value = value;
+                SetTheme();
+            }
+        }
+    }
 
     async Task Close() => await BlazoredModal.CloseAsync(ModalResult.Ok(true));
     async Task Cancel() => await BlazoredModal.CancelAsync();
@@ -26,9 +39,9 @@
     [Inject]
     private NavigationManager NavigationManager { get; set; }
 
-    private void SetTheme()
+    private async void SetTheme()
     {
         Console.WriteLine("Change Set Theme");
+        await jsRuntime.InvokeVoidAsync("setTheme", Value);
     }
-
 }
