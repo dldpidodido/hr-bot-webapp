@@ -16,7 +16,7 @@ namespace hr_bot_webapp_v2.Services
             string encodedLocation = Uri.EscapeDataString(location);
 
             // Construct the query string based on the search variables
-            string queryString = $"search?query={encodedPosition}%20in%20{encodedLocation}&page={page}&num_pages={num_pages}&radius={radius}";
+            string queryString = $"search?query={encodedPosition}%20in%20{encodedLocation}&page={page}&num_pages={num_pages}";
 
             // Create the RestRequest using the constructed query string
             var request = new RestRequest(queryString);

@@ -1,0 +1,23 @@
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.exe
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\appsettings.json
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.deps.json
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.runtimeconfig.json
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\hr-bot-webapp v2.pdb
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\BlazorComponentUtilities.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Blazored.LocalStorage.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Blazored.Modal.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\BlazorStrap.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\BlazorStrap.V5.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Authorization.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Components.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Components.Forms.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Components.Web.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Metadata.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.Extensions.Options.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.JSInterop.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Microsoft.JSInterop.WebAssembly.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\OpenAI-DotNet.dll
+F:\WebApp\hrbot-web-app\hr-bot-webapp v2\obj\Release\net7.0\PubTmp\Out\RestSharp.dll

@@ -12,13 +12,14 @@
             <a class="navbar-brand nav-item-flex text-white" href="" style="padding-left:1rem; padding-right:20rem">
                 <img src="/misc/jobsai.png" style="width: 160px;">
             </a>
-            <div >
-                <BSInputGroup >
+            <div>
+                <BSInputGroup>
                     <span class="@BS.Input_Group_Text bg-light" style="border-top-left-radius : 15px; border-bottom-left-radius: 15px; padding:10px; border: none"> <ion-icon name="search-outline"></ion-icon></span>
-                    <BSInput InputType="InputType.Text" Value="@("")" style="border:none; margin:0; padding:0; width: 20rem" class="bg-light" />
-                    <BSDropdown Placement="Placement.BottomEnd" >
+                    <BSInput InputType="InputType.Text" @bind-Value="@inputValue" onblur="@OnInputUnselectedCallback" style="border:none; margin:0; padding:0; width: 20rem" class="bg-light" />
+                    <BSDropdown Placement="Placement.BottomEnd">
                         <Toggler><BSToggle IsButton="true" IsOutlined="false" Color="BSColor.Light">Dropdown</BSToggle></Toggler>
                         <Content>
+                            <BSDropdownItem>Unselected</BSDropdownItem>
                             <BSDropdownItem>Action</BSDropdownItem>
                             <BSDropdownItem>Another action</BSDropdownItem>
                             <BSDropdownItem>Something else here</BSDropdownItem>
@@ -33,6 +34,26 @@
         <article class="content px-4">
             @Body
         </article>
-        <Footer/>
+        <Footer />
     </main>
 </div>
+
+@code {
+    private string inputValue { get; set; }
+    private string lastEnteredValue { get; set; } // To store the last entered value
+
+    private EventCallback<FocusEventArgs> OnInputUnselectedCallback => EventCallback.Factory.Create<FocusEventArgs>(this, OnInputUnselected);
+
+    private void OnInputUnselected(FocusEventArgs e)
+    {
+        if (inputValue == lastEnteredValue)
+        {
+            Console.WriteLine("Enter old > " + inputValue);
+        }
+        else
+        {
+            Console.WriteLine("Enter new > " + inputValue);
+            lastEnteredValue = inputValue; // Store the new value as the last entered value
+        }
+    }
+}

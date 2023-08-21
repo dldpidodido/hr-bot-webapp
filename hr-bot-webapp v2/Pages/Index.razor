@@ -6,7 +6,7 @@
 {
     @foreach (JobInitService.JobInit j in jobInits)
     {
-        @if (j.Jobs.Count < 1)
+        @if (j.Jobs.Count() < 1)
         {
             return;
         }
@@ -30,7 +30,7 @@
                     <div class="card bg-light mb-3 job-card-inner">
                         <div class="card-body job-card-info">
                             <div class="card-title-wrapper">
-                                <a href="" class="card-title" target="_blank" rel="noopener noreferrer nofollow">@job.job_job_title</a>
+                                <a href="@job.job_apply_link" class="card-title" target="_blank" rel="noopener noreferrer nofollow">@job.job_job_title</a>
                                 <div class="job-card-location-time">
                                     <span class="job-card-location">@job.job_city + @job.job_state</span>
                                     <span class="job-card-extra-divider">&nbsp;·&nbsp;</span>
@@ -113,12 +113,12 @@ else
 
     public async Task GetJobInstance()
     {
-    // Generate 10 random jobs
+        // Generate 10 random jobs
         while (loc?.Country?.Name == null)
         {
             loc = await IPGeoLocationService.GetLocation();
 
-    // If the country is still null, wait for a short delay before trying again
+            // If the country is still null, wait for a short delay before trying again
             if (loc?.Country?.Name == null)
             {
                 await Task.Delay(1000); // Wait for 1 second
@@ -130,11 +130,12 @@ else
             Console.WriteLine("Ref > " + j.refTitle);
             Console.WriteLine($"Location {loc.City?.Name}");
             var result = await SearchJobs(j.refTitle, loc.Country?.Name, 10);
+            Console.WriteLine(result.Count());
             j.Jobs = new List<JobData>(result);
         }
 
-    // get random job then search for jobs within certain radius
-        if (jobInits.Count > 0)
+        // get random job then search for jobs within certain radius
+        if (jobInits.Count() > 0)
         {
             var rand = new Random();
             var randomIndex = rand.Next(10);
@@ -151,7 +152,7 @@ else
                 }
             }
 
-    // var jobs = new List<JobData>(Global.JobPosts.jobs);
+            // var jobs = new List<JobData>(Global.JobPosts.jobs);
             foreach (var job in Global.JobPosts.jobs)
             {
                 Console.WriteLine($"Job Title {job.job_title}, city {job.job_city}");
@@ -170,7 +171,7 @@ else
     private async Task<List<JobData>> SearchJobs(string title, string location, int radius)
     {
         var response = await JobSearchService.SearchJobs(title, location, 1, 1, radius);
-    // Handle the response
+        // Handle the response
         return response?.data ?? new List<JobData>();
     }
 

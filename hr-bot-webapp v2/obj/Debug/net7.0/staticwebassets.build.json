@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V9H886+qgncGLUXKLs6yIYEACcMF3s8emfzbBDwe5N4=",
+  "Hash": "sfShRSI/Qnh6t0iF0bYwxL4M3vEM0hAGxpzf1ozPfMc=",
   "Source": "hr-bot-webapp v2",
   "BasePath": "_content/hr-bot-webapp v2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "hr-bot-webapp v2\\wwwroot",
       "Source": "hr-bot-webapp v2",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\kittu\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\Blazored.Modal.bundle.scp.css",
+      "Identity": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\Blazored.Modal.bundle.scp.css",
       "SourceId": "Blazored.Modal",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\kittu\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\",
       "BasePath": "_content/Blazored.Modal",
       "RelativePath": "Blazored.Modal.bundle.scp.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kittu\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\Blazored.Modal.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\Blazored.Modal.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kittu\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\BlazoredModal.razor.js",
+      "Identity": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\BlazoredModal.razor.js",
       "SourceId": "Blazored.Modal",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\kittu\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\",
       "BasePath": "_content/Blazored.Modal",
       "RelativePath": "BlazoredModal.razor.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kittu\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\BlazoredModal.razor.js"
+      "OriginalItemSpec": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazored.modal\\7.1.0\\staticwebassets\\BlazoredModal.razor.js"
     },
     {
-      "Identity": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap.v5\\5.1.102.51723\\staticwebassets\\BlazorStrap.V5.bundle.scp.css",
+      "Identity": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap.v5\\5.1.102.51723\\staticwebassets\\BlazorStrap.V5.bundle.scp.css",
       "SourceId": "BlazorStrap.V5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap.v5\\5.1.102.51723\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap.v5\\5.1.102.51723\\staticwebassets\\",
       "BasePath": "_content/BlazorStrap.V5",
       "RelativePath": "BlazorStrap.V5.bundle.scp.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap.v5\\5.1.102.51723\\staticwebassets\\BlazorStrap.V5.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap.v5\\5.1.102.51723\\staticwebassets\\BlazorStrap.V5.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\BlazorStrap.bundle.scp.css",
+      "Identity": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\BlazorStrap.bundle.scp.css",
       "SourceId": "BlazorStrap",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
       "BasePath": "_content/BlazorStrap",
       "RelativePath": "BlazorStrap.bundle.scp.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\BlazorStrap.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\BlazorStrap.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.js",
+      "Identity": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.js",
       "SourceId": "BlazorStrap",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
       "BasePath": "_content/BlazorStrap",
       "RelativePath": "blazorstrap.js",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.js"
+      "OriginalItemSpec": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.js"
     },
     {
-      "Identity": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.min.js",
+      "Identity": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.min.js",
       "SourceId": "BlazorStrap",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
       "BasePath": "_content/BlazorStrap",
       "RelativePath": "blazorstrap.min.js",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\blazorstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\popper.min.js",
+      "Identity": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\popper.min.js",
       "SourceId": "BlazorStrap",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\",
       "BasePath": "_content/BlazorStrap",
       "RelativePath": "popper.min.js",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kittu\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\popper.min.js"
+      "OriginalItemSpec": "C:\\Users\\TOSHIBA\\.nuget\\packages\\blazorstrap\\5.1.102.51923\\staticwebassets\\popper.min.js"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\hr-bot-webapp v2.styles.css",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\hr-bot-webapp v2.styles.css",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "hr-bot-webapp v2.styles.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\hr-bot-webapp v2.styles.css"
+      "OriginalItemSpec": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\hr-bot-webapp v2.styles.css"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\hr-bot-webapp v2.bundle.scp.css",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\hr-bot-webapp v2.bundle.scp.css",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "hr-bot-webapp v2.bundle.scp.css",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\hr-bot-webapp v2.bundle.scp.css"
+      "OriginalItemSpec": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\hr-bot-webapp v2.bundle.scp.css"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -204,27 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
-      "BasePath": "_content/hr-bot-webapp v2",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "SourceId": "hr-bot-webapp v2",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -238,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -255,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -272,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -289,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -306,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -323,10 +306,27 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
+      "BasePath": "_content/hr-bot-webapp v2",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "hr-bot-webapp v2",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\css\\site.css",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\css\\site.css",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\favicon.png",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\favicon.png",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\architecture.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\architecture.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/architecture.svg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\architecture.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\building-maintenance.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\building-maintenance.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/building-maintenance.svg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\building-maintenance.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\business.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\business.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/business.svg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\business.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\cog-outline.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\cog-outline.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/cog-outline.svg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\cog-outline.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\construction.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\construction.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/construction.svg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\construction.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\education.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\education.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/education.svg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\education.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\entertainment.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\entertainment.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/entertainment.svg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\entertainment.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\farming.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\farming.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/farming.svg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\farming.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\food-service.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\food-service.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/food-service.svg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\food-service.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\globe-outline.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\globe-outline.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/globe-outline.svg",
       "AssetKind": "All",
@@ -561,27 +561,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\globe-outline.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\healthcare-support.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\healthcare.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
-      "BasePath": "_content/hr-bot-webapp v2",
-      "RelativePath": "icons/healthcare-support.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icons\\healthcare-support.svg"
-    },
-    {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\healthcare.svg",
-      "SourceId": "hr-bot-webapp v2",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/healthcare.svg",
       "AssetKind": "All",
@@ -595,10 +578,27 @@
       "OriginalItemSpec": "wwwroot\\icons\\healthcare.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\installation.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\healthcare-support.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
+      "BasePath": "_content/hr-bot-webapp v2",
+      "RelativePath": "icons/healthcare-support.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\healthcare-support.svg"
+    },
+    {
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\installation.svg",
+      "SourceId": "hr-bot-webapp v2",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/installation.svg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\installation.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\legal.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\legal.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/legal.svg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\legal.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\logo-github.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\logo-github.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/logo-github.svg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\logo-github.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\management.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\management.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/management.svg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\management.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\manufacturing.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\manufacturing.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/manufacturing.svg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\manufacturing.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\military.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\military.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/military.svg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\military.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\office.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\office.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/office.svg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\office.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\personal-care.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\personal-care.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/personal-care.svg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\personal-care.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\sales.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\sales.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/sales.svg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\sales.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\science.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\science.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/science.svg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\science.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\security.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\security.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/security.svg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\security.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\social-service.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\social-service.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/social-service.svg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\social-service.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\tech.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\tech.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/tech.svg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\tech.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\icons\\transportation.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\icons\\transportation.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "icons/transportation.svg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\icons\\transportation.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\js\\deviceDetector.js",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\js\\deviceDetector.js",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "js/deviceDetector.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\js\\deviceDetector.js"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\js\\fileBrowser.js",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\js\\fileBrowser.js",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "js/fileBrowser.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\js\\fileBrowser.js"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\misc\\cherry.png",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\cherry.png",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "misc/cherry.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\misc\\cherry.png"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\misc\\en-US apple.svg",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\en-US apple.svg",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "misc/en-US apple.svg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\misc\\en-US apple.svg"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\misc\\en-US google.png",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\en-US google.png",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "misc/en-US google.png",
       "AssetKind": "All",
@@ -918,10 +918,27 @@
       "OriginalItemSpec": "wwwroot\\misc\\en-US google.png"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\misc\\pear.png",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\jobsai.png",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
+      "BasePath": "_content/hr-bot-webapp v2",
+      "RelativePath": "misc/jobsai.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\misc\\jobsai.png"
+    },
+    {
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\pear.png",
+      "SourceId": "hr-bot-webapp v2",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "misc/pear.png",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\misc\\pear.png"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\misc\\qrcode.png",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\qrcode.png",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "misc/qrcode.png",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\misc\\qrcode.png"
     },
     {
-      "Identity": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\misc\\tomato.png",
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\tomato.png",
       "SourceId": "hr-bot-webapp v2",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Documents\\WebProjects\\hr-bot-webapp\\hr-bot-webapp v2\\wwwroot\\",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
       "BasePath": "_content/hr-bot-webapp v2",
       "RelativePath": "misc/tomato.png",
       "AssetKind": "All",
