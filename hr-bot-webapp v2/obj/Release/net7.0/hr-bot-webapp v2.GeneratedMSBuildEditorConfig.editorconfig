@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV0dG9uVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/WebApp/hrbot-web-app/hr-bot-webapp v2/Pages/LinkIn.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlua0luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/WebApp/hrbot-web-app/hr-bot-webapp v2/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

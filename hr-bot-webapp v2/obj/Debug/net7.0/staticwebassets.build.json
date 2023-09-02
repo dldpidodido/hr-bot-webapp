@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sfShRSI/Qnh6t0iF0bYwxL4M3vEM0hAGxpzf1ozPfMc=",
+  "Hash": "tPd8XN75c0bVF9dmBQaAzjB0GnHeUJbeDqNZ7FcT/u4=",
   "Source": "hr-bot-webapp v2",
   "BasePath": "_content/hr-bot-webapp v2",
   "Mode": "Default",
@@ -916,6 +916,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\misc\\en-US google.png"
+    },
+    {
+      "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\en-US linkin.gif",
+      "SourceId": "hr-bot-webapp v2",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\",
+      "BasePath": "_content/hr-bot-webapp v2",
+      "RelativePath": "misc/en-US linkin.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\misc\\en-US linkin.gif"
     },
     {
       "Identity": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\jobsai.png",

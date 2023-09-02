@@ -1,0 +1,90 @@
+﻿@page "/linkin"
+@inject IJSRuntime jsRuntime
+
+
+<div class="card bg-light" style="max-width: 500px; margin-bottom: 3rem;transform: translate(@xPos, @yPos)">
+    <div class="card-header bg-secondary">
+        <span class="card-text" style="color:white">
+            Import from LinkedIn
+        </span>
+    </div>
+    <div class="card-body">
+        <ul>
+            <li>Visit your LinkedIn profile</li>
+            <li>Click More, then click Save to PDF</li>
+            <li>Upload your PDF here to be analyzed with ChatGPT</li>
+        </ul>
+    </div>
+    <a class="btn btn-primary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:0.3rem" @onclick="ChooseFileAsync">Upload PDF from LinkedIn</a>
+    <input type="file" @ref="InputFileElement" id="fileInput" style="display:none" accept=".txt,.pdf,.docx" @onchange="HandleFileSelectAsync" />
+    <span style="font-size:16px; padding-left: 1.5rem; padding-right: 1.5rem; padding-left: 1.5rem; padding: 1rem">
+        By pressing the button above, you agree to our Terms and Privacy Policy, and agree to receive email job alerts. You can unsubscribe anytime.
+    </span>
+</div>
+
+@using hr_bot_webapp_v2.Services
+@using System.Text.RegularExpressions
+@using System.Collections.Generic
+
+@inject JobInitService JobInitService
+@inject SharedService SharedService
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+@code {
+    private ElementReference InputFileElement;
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    private async Task ChooseFileAsync()
+    {
+        await jsRuntime.InvokeVoidAsync("triggerFileInputClick", InputFileElement);
+    }
+
+    private async Task HandleFileSelectAsync()
+    {
+        var fileContent = await jsRuntime.InvokeAsync<string>("readFileContent", InputFileElement);
+        List<JobInitService.JobInit> jobInits = new List<JobInitService.JobInit>();
+
+        Console.WriteLine("HandleFileSelectAsync \n" + fileContent); // Example: print the content to the console
+        if (SharedService.StartChatGPTServiceDirectInstance != null)
+        {
+            await SharedService.StartChatGPTServiceDirectInstance(fileContent);
+            // Use a regular expression to match each line in the content
+            Regex regex = new Regex(@"^(.+)$", RegexOptions.Multiline);
+
+            // Create a list to store the extracted data
+            List<string> extractedData = new List<string>();
+
+            // Iterate through the matches and add them to the list
+            foreach (Match match in regex.Matches(fileContent))
+            {
+                Console.WriteLine("Ref > " + match.Groups[1].Value);
+                extractedData.Add(match.Groups[1].Value);
+            }
+
+            // Print the extracted data
+            Console.WriteLine("Extracted Data:");
+
+            foreach (string data in extractedData)
+            {
+                Console.WriteLine(data);
+                jobInits.Add(new JobInitService.JobInit { refTitle = data });
+            }
+
+        }
+        await localStorage.RemoveItemAsync("JobInits");
+        await localStorage.SetItemAsync("JobInits", jobInits);
+        NavigationManager.NavigateTo("/");
+    }
+
+    private bool IsMobile { get; set; }
+    private string xPos, yPos;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        IsMobile = await jsRuntime.InvokeAsync<bool>("isMobileDevice");
+        xPos = IsMobile ? "0" : "86%"; /* mobile | pc */
+        yPos = IsMobile ? "0" : "5%";
+        StateHasChanged();
+    }
+}

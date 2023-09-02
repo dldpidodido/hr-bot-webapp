@@ -1,6 +1,7 @@
 ﻿@inherits LayoutComponentBase
+@inject IJSRuntime jsRuntime
 
-<PageTitle>hr-bot-webapp v2</PageTitle>
+<PageTitle>JobsAi</PageTitle>
 
 <div class="page">
     <div class="sidebar">
@@ -15,16 +16,17 @@
             <div>
                 <BSInputGroup>
                     <span class="@BS.Input_Group_Text bg-light" style="border-top-left-radius : 15px; border-bottom-left-radius: 15px; padding:10px; border: none"> <ion-icon name="search-outline"></ion-icon></span>
-                    <BSInput InputType="InputType.Text" @bind-Value="@inputValue" onblur="@OnInputUnselectedCallback" style="border:none; margin:0; padding:0; width: 20rem" class="bg-light" />
+                    <BSInput InputType="InputType.Text" @bind-Value="@inputValue" onblur="@OnInputUnselectedCallback" style="border:none; margin:0; padding:0; width: 100" class="bg-light" />
                     <BSDropdown Placement="Placement.BottomEnd">
-                        <Toggler><BSToggle IsButton="true" IsOutlined="false" Color="BSColor.Light">Dropdown</BSToggle></Toggler>
+                        <Toggler><BSToggle IsButton="true" IsOutlined="false" Color="BSColor.Light">@dropdownValue</BSToggle></Toggler>
                         <Content>
-                            <BSDropdownItem>Unselected</BSDropdownItem>
-                            <BSDropdownItem>Action</BSDropdownItem>
-                            <BSDropdownItem>Another action</BSDropdownItem>
-                            <BSDropdownItem>Something else here</BSDropdownItem>
-                            <BSDropdownItem IsDivider="true" />
-                            <BSDropdownItem>Separated link</BSDropdownItem>
+                            @if (allLocations.Count() > 0)
+                            {
+                                @foreach (var loc in allLocations)
+                                {
+                                    <BSDropdownItem @onclick="(() => SelectLocation(loc.Name))">@loc.Name</BSDropdownItem>
+                                }
+                            }
                         </Content>
                     </BSDropdown>
                 </BSInputGroup>
@@ -38,13 +40,26 @@
     </main>
 </div>
 
+@using hr_bot_webapp_v2.Services
+
+@inject JobInitService JobInitService
+@inject SharedService SharedService
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
 @code {
     private string inputValue { get; set; }
+    private string dropdownValue { get; set; }
+
+
     private string lastEnteredValue { get; set; } // To store the last entered value
+    private List<JobPosts.LocationItem> allLocations = new List<JobPosts.LocationItem> (); // Declare the field here
 
     private EventCallback<FocusEventArgs> OnInputUnselectedCallback => EventCallback.Factory.Create<FocusEventArgs>(this, OnInputUnselected);
 
-    private void OnInputUnselected(FocusEventArgs e)
+    @inject NavigationManager NavigationManager
+
+
+    private async Task OnInputUnselected(FocusEventArgs e)
     {
         if (inputValue == lastEnteredValue)
         {
@@ -52,8 +67,59 @@
         }
         else
         {
-            Console.WriteLine("Enter new > " + inputValue);
             lastEnteredValue = inputValue; // Store the new value as the last entered value
+            if (dropdownValue != string.Empty && inputValue != string.Empty)
+            {
+                await HandleInputAsync(inputValue);
+                Console.WriteLine("Enter new > " + inputValue);
+            }
         }
+    }
+
+    private async Task HandleInputAsync(string inputJob)
+    {
+        List<JobInitService.JobInit> jobInits = new List<JobInitService.JobInit>();
+        jobInits.Add(new JobInitService.JobInit { refTitle = inputJob });
+
+        await localStorage.RemoveItemAsync("JobInits");
+        await localStorage.SetItemAsync("JobInits", jobInits);
+
+        // Store the dropdown and input values in localStorage
+        await localStorage.SetItemAsync("dropdownValue", dropdownValue);
+        await localStorage.SetItemAsync("inputValue", inputValue);
+
+        NavigationManager.NavigateTo("/", forceLoad: true);
+    }
+
+    private void SelectLocation(string locationName)
+    {
+        dropdownValue = locationName;
+        dropdownValue = locationName; // Update the last entered value as well
+        StateHasChanged(); // Trigger a re-render
+    }
+
+    protected override async void OnInitialized()
+    {
+        // Retrieve the values from localStorage
+        dropdownValue = await localStorage.GetItemAsync<string>("dropdownValue") ?? string.Empty;
+        inputValue = await localStorage.GetItemAsync<string>("inputValue") ?? string.Empty;
+
+
+        await GenerateAllLocationsAsync();
+    }
+
+    private async Task GenerateAllLocationsAsync()
+    {
+        while (Global.JobPosts.jobs == null)
+        {
+            if (Global.JobPosts.jobs == null)
+            {
+                await Task.Delay(1000); // Wait for 1 second
+            }
+        }
+
+        allLocations = Global.JobPosts.GetLocationItemList();
+        Console.WriteLine("allow > " + allLocations.Count());
+        StateHasChanged();
     }
 }

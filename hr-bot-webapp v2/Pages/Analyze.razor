@@ -25,7 +25,7 @@
     </div>
     <a class="btn btn-primary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:0.3rem" @onclick="ChooseFileAsync">Analyze Resume / CV</a>
     <input type="file" @ref="InputFileElement" id="fileInput" style="display:none" accept=".txt,.pdf,.docx" @onchange="HandleFileSelectAsync" />
-    <a class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:2rem">Import from LinkedIn</a>
+    <a class="btn btn-secondary" style="max-width: 500px; margin-left:1rem; margin-right:1rem; margin-bottom:2rem" @onclick="OnLinkIn">Import from LinkedIn</a>
     <span style="font-size:16px; padding-left: 1.5rem; padding-right: 1.5rem; padding-left: 1.5rem; padding: 1rem">
         By pressing the button above, you agree to our Terms and Privacy Policy, and agree to receive email job alerts. You can unsubscribe anytime.
     </span>
@@ -83,6 +83,11 @@
         await localStorage.RemoveItemAsync("JobInits");
         await localStorage.SetItemAsync("JobInits", jobInits);
         NavigationManager.NavigateTo("/");
+    }
+
+    private void OnLinkIn ()
+    {
+        NavigationManager.NavigateTo("/linkin", forceLoad:true);
     }
 
     private bool IsMobile { get; set; }

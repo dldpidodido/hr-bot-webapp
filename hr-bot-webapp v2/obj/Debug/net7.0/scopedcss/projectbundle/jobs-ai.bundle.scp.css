@@ -1,0 +1,763 @@
+/* _content/jobs-ai/Pages/ChatGPT.razor.rz.scp.css */
+#chatpage[b-w0nq762lkg] {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
+    padding: 0px; /* Add some padding to the chat container */
+    background-color: #f2f2f2; /* Set background color */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    /* Set height for PC view */
+    height: 440px; /* Adjust the height as per your preference for PC */
+}
+
+/* Styles for the chat container and its messages */
+#chatcontainer[b-w0nq762lkg] {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
+    padding: 0px; /* Add some padding to the chat container */
+    background-color: #f2f2f2; /* Set background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    /* Set height for PC view */
+    height: 380px; /* Adjust the height as per your preference for PC */
+}
+
+    #chatcontainer[b-w0nq762lkg]::-webkit-scrollbar {
+        /* Width of vertical scroll bar */
+        width: 8px;
+        /* Height of horizontal scroll bar */
+        height: 10px;
+    }
+
+    #chatcontainer[b-w0nq762lkg]::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background: #c2c9d2;
+    }
+
+
+.chat-analyzed-button[b-w0nq762lkg] {
+    margin-top: 10px;
+    margin-left: 190px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 5px 30px;
+    text-align: center;
+    width: 210px;
+    border: none;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+    #chatpage[b-w0nq762lkg] {
+        height: 20rem; /* Adjust the height for mobile view */
+    }
+
+    #chatcontainer[b-w0nq762lkg] {
+        height: 20rem; /* Adjust the height for mobile view */
+    }
+
+    .chat-analyzed-button[b-w0nq762lkg] {
+        display: none;
+    }
+}
+
+/* Styles for user messages */
+.user-message[b-w0nq762lkg] {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Styles for the user message container */
+.user[b-w0nq762lkg] {
+    color: white;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* Styles for assistant messages */
+.chatgpt-message[b-w0nq762lkg] {
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* Styles for the assistant message container */
+.chatgpt[b-w0nq762lkg] {
+    background: #4CAF50;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the input container */
+.input-container[b-w0nq762lkg] {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+    /* Styles for the input box */
+    .input-container input[b-w0nq762lkg] {
+        flex: 1;
+        border-radius: 10px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* Styles for the "Ask Me !" button */
+    .input-container button[b-w0nq762lkg] {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+/* _content/jobs-ai/Pages/index.razor.rz.scp.css */
+ /* Container for centering */
+.card-container[b-tqtll36av4] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; /* Add vertical scroll */
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* Card styles */
+.card[b-tqtll36av4] {
+    border-radius: 10px; /* Add rounded corners */
+    width: 100%; /* Adjust to fit the screen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin: 5px 0; /* Add vertical margin for space between cards */
+}
+
+/* Card header styles */
+.card-header[b-tqtll36av4] {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* Card body styles */
+.card-body[b-tqtll36av4] {
+    padding: 15px;
+}
+
+/* Card title and location/time styles */
+.card-title-wrapper[b-tqtll36av4] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-card-location-time[b-tqtll36av4] {
+    display: flex;
+    align-items: center;
+}
+
+.job-card-location[b-tqtll36av4],
+.job-card-posted-date[b-tqtll36av4] {
+    margin-left: 10px;
+}
+
+.jobs-container[b-tqtll36av4] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobs-actions[b-tqtll36av4] {
+    display: flex;
+    align-items: center;
+}
+
+.analyze-all-button[b-tqtll36av4] {
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #ccc;
+    padding: 5px 30px;
+}
+
+.button-text[b-tqtll36av4] {
+    color: #fff;
+}
+/* _content/jobs-ai/Pages/MenuExtension.razor.rz.scp.css */
+.main-menu-extension-page[b-jpo6xip85b] {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Use 'auto' to show vertical scrollbar when needed */
+    padding: 10px; /* Add some padding to the menu container */
+    background-color: #f2f2f2; /* Set background color */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+.menu-extension-content[b-jpo6xip85b] {
+    /* Apply styles to the content inside the menu container */
+    padding: 10px;
+    border-radius: 20px; /* Add border radius to make it a rounded button */
+    border-bottom: 1px solid #ccc;
+    background: #c2c9d2;
+    text-align: center;
+    color: #fff; /* Set text color to white for better contrast */
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    /* For screens up to 767px (mobile) */
+    .main-menu-extension-page[b-jpo6xip85b] {
+        display: none;
+        padding-bottom: 0px; /* Add some padding to the menu container */
+
+        margin: 0;
+        padding: 0;
+    }
+}
+/* _content/jobs-ai/Pages/ModalAccount.razor.rz.scp.css */
+.nav-modal-class[b-wdtdfpqjp9] {
+    width: 20rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 4.0rem;
+}
+/* _content/jobs-ai/Pages/ModalLanguage.razor.rz.scp.css */
+.nav-modal-class[b-ouqmyozkba] {
+    width: 20rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 4.0rem;
+}
+/* _content/jobs-ai/Pages/NearbyLocations.razor.rz.scp.css */
+/* Custom styling for the Nearby Locations component */
+.main-menu-list[b-lui29j83wf] {
+    border-top: 1px solid #9b9b9b; /* Add a top border to create the top line */
+    border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
+    padding: 10px; /* Add some padding to create spacing between the lines and content */
+    padding-top: 25px;
+}
+
+.location-item[b-lui29j83wf] {
+    /* ... (existing styles for the location items, if any) */
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Make the location items hoverable */
+    padding: 6px; /* Add some spacing between each location item */
+}
+
+.hoverable:hover[b-lui29j83wf],
+.hoverable-buttons:hover[b-lui29j83wf] {
+    /* Add styles for the hoverable elements when hovered */
+    background-color: #f0f0f0; /* Example background color change when hovered */
+    background-color: #f0f0f0; /* Example background color change when hovered */
+    border-radius: 10px; /* Add this line to create cornered hover background for buttons */
+}
+
+.location-icon[b-lui29j83wf] {
+    /* ... (existing styles for the location icon, if any) */
+    font-size: 22px; /* Set the font size to change the icon size */
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.location-name[b-lui29j83wf] {
+    /* ... (existing styles for the location name, if any) */
+    flex: 1; /* This will make the location name take up the available space */
+    font-style: bold;
+}
+
+.location-number[b-lui29j83wf] {
+    /* ... (existing styles for the location number, if any) */
+    padding-right: 20px;
+}
+
+.show-more-less-buttons[b-lui29j83wf] {
+    /* Add any additional styles for the button container if needed */
+    margin-top: 10px; /* Add some spacing between the location items and buttons */
+    padding: 6px; /* Add some spacing between each location item */
+}
+
+.hoverable-buttons button[b-lui29j83wf] {
+    /* Add styles for the buttons with the hoverable-buttons class */
+    /* These styles will be applied when the buttons are hovered */
+    background-color: transparent; /* Example background color change when hovered */
+    cursor: pointer;
+    padding: 5px 10px;
+    padding-left: 45px;
+    border: none;
+    align-items: center;
+}
+
+/* Styles for the "Show More" and "Show Less" buttons */
+button[b-lui29j83wf] {
+    /* ... (existing styles for the buttons, if any) */
+    margin-right: 10px; /* Add spacing between the buttons if needed */
+}
+/* _content/jobs-ai/Pages/Occupation.razor.rz.scp.css */
+.occupations-circle-white[b-3v7pay6crh] {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 10%;
+    padding-top: 10%;
+}
+
+/* Custom styling for the Nearby occupationss component */
+.occupations-main-menu-list[b-3v7pay6crh] {
+    border-bottom: 1px solid #9b9b9b; /* Add a bottom border to create the bottom line */
+    padding: 10px; /* Add some padding to create spacing between the lines and content */
+    padding-bottom: 10px;
+}
+
+.occupations-item[b-3v7pay6crh] {
+    /* ... (existing styles for the occupations items, if any) */
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Make the occupations items hoverable */
+    padding: 6px; /* Add some spacing between each occupations item */
+    padding-left: 0%;
+}
+
+.hoverable:hover[b-3v7pay6crh],
+.hoverable-buttons:hover[b-3v7pay6crh] {
+    /* Add styles for the hoverable elements when hovered */
+    background-color: #f0f0f0; /* Example background color change when hovered */
+    background-color: #f0f0f0; /* Example background color change when hovered */
+    border-radius: 10px; /* Add this line to create cornered hover background for buttons */
+}
+
+.occupation-icon[b-3v7pay6crh] {
+    /* ... (existing styles for the occupations icon, if any) */
+    font-size: 22px; /* Set the font size to change the icon size */
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.occupations-name[b-3v7pay6crh] {
+    /* ... (existing styles for the occupations name, if any) */
+    flex: 1; /* This will make the occupations name take up the available space */
+    font-style: bold;
+}
+
+.show-more-less-buttons[b-3v7pay6crh] {
+    /* Add any additional styles for the button container if needed */
+    margin-top: 10px; /* Add some spacing between the occupations items and buttons */
+    padding: 6px; /* Add some spacing between each occupations item */
+}
+
+.hoverable-buttons button[b-3v7pay6crh] {
+    /* Add styles for the buttons with the hoverable-buttons class */
+    /* These styles will be applied when the buttons are hovered */
+    background-color: transparent; /* Example background color change when hovered */
+    cursor: pointer;
+    padding: 5px 10px;
+    padding-left: 60px;
+    border: none;
+    align-items: center;
+}
+
+/* Styles for the "Show More" and "Show Less" buttons */
+button[b-3v7pay6crh] {
+    /* ... (existing styles for the buttons, if any) */
+    margin-left: -5px; /* Add spacing between the buttons if needed */
+    padding: 6px; /* Add some spacing between each location item */
+}
+/* _content/jobs-ai/Pages/SiteMap.razor.rz.scp.css */
+.sitemap-container[b-kj36g6w4hv] {
+    position: relative; /* To enable absolute positioning for the text */
+    /*height: 300px; !* Set the container height as per your requirement *!*/
+    margin-bottom: 8rem;
+}
+
+.sitemap-centered-text[b-kj36g6w4hv] {
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.sitemap-icon-container[b-kj36g6w4hv] {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the icons horizontally */
+}
+
+/* Adjust the font size and color of the icons as needed */
+.sitemap-icon[b-kj36g6w4hv] {
+    font-size: 24px;
+    color: #333;
+}
+
+.sitemap-logo[b-kj36g6w4hv] {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 150px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-google-logo[b-kj36g6w4hv] {
+    position: absolute;
+    top: 20%;
+    right: -25%;
+    transform: translateX(-50%);
+    width: 230px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-apple-logo[b-kj36g6w4hv] {
+    position: absolute;
+    top: 0;
+    right: -19%;
+    transform: translateX(-50%);
+    width: 205px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+
+.scan-text[b-kj36g6w4hv] {
+    font-size: 15.2px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 38%;
+}
+
+/* Styling for the rows */
+.sitemap-rows-container[b-kj36g6w4hv] {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.row[b-kj36g6w4hv] {
+    flex: 1;
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .sitemap-container[b-kj36g6w4hv] {
+        display: none;
+    }
+}
+/* _content/jobs-ai/Shared/Footer.razor.rz.scp.css */
+.sitemap-container[b-xapiy5e6iw] {
+    position: relative; /* To enable absolute positioning for the text */
+    /*height: 300px; !* Set the container height as per your requirement *!*/
+    margin-bottom: 8rem;
+    display: none;
+}
+
+.sitemap-centered-text[b-xapiy5e6iw] {
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.sitemap-icon-container[b-xapiy5e6iw] {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the icons horizontally */
+}
+
+/* Adjust the font size and color of the icons as needed */
+.sitemap-icon[b-xapiy5e6iw] {
+    font-size: 24px;
+    color: #333;
+}
+
+.sitemap-logo[b-xapiy5e6iw] {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 150px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-google-logo[b-xapiy5e6iw] {
+    position: absolute;
+    top: 20%;
+    right: -25%;
+    transform: translateX(-50%);
+    width: 230px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+.sitemap-apple-logo[b-xapiy5e6iw] {
+    position: absolute;
+    top: 0;
+    right: -19%;
+    transform: translateX(-50%);
+    width: 205px; /* Set the width of the image as per your requirement */
+    height: auto;
+}
+
+
+.scan-text[b-xapiy5e6iw] {
+    font-size: 15.2px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 38%;
+}
+
+/* Styling for the rows */
+.sitemap-rows-container[b-xapiy5e6iw] {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.row[b-xapiy5e6iw] {
+    flex: 1;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sitemap-container[b-xapiy5e6iw] {
+        display: block;
+    }
+}
+/* _content/jobs-ai/Shared/MainLayout.razor.rz.scp.css */
+.page[b-3qk2pw75oh] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-3qk2pw75oh] {
+    flex: 1;
+}
+
+.sidebar[b-3qk2pw75oh] {
+    /*background-color: #f7f7f7;*/
+}
+
+.footer-hide[b-3qk2pw75oh] {
+    display: block;
+}
+
+.top-row[b-3qk2pw75oh] {
+    background: #c2c9d2;
+    justify-content: flex-start; /* Change 'flex-end' to 'flex-start' */
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-3qk2pw75oh]  a, .top-row .btn-link[b-3qk2pw75oh] {
+        white-space: nowrap;
+        margin-right: 1.5rem; /* Change 'margin-left' to 'margin-right' */
+    }
+
+    .top-row a:first-child[b-3qk2pw75oh] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-3qk2pw75oh] {
+        display: none;
+    }
+
+    .top-row.auth[b-3qk2pw75oh] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-3qk2pw75oh], .top-row .btn-link[b-3qk2pw75oh] {
+        margin-right: 0; /* Change 'margin-left' to 'margin-right' */
+    }
+
+    .footer-hide[b-3qk2pw75oh] {
+        display: block;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-3qk2pw75oh] {
+        flex-direction: row-reverse; /* Change 'row' to 'row-reverse' */
+    }
+
+    .sidebar[b-3qk2pw75oh] {
+        width: 450px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-3qk2pw75oh] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-3qk2pw75oh], article[b-3qk2pw75oh] {
+        padding-left: 1.5rem !important; /* Adjust padding values to your preference */
+        padding-right: 2rem !important; /* Adjust padding values to your preference */
+    }
+}
+/* _content/jobs-ai/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-4bzassfquk] {
+    /*background-color: rgba(255, 255, 255, 0.1);*/
+}
+
+.top-row[b-4bzassfquk] {
+    height: 3.5rem;
+    background: #c2c9d2;
+}
+
+.top-icons[b-4bzassfquk] {
+    color: white;
+    position: absolute;
+    padding-right: 10px;
+    right: 0; /* Use 'right' property to position to the right */
+}
+
+
+.nav-modal-class[b-4bzassfquk] {
+    width: 20rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 4.0rem;
+}
+
+.navbar-brand[b-4bzassfquk] {
+    font-size: 1.1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img[b-4bzassfquk] {
+    margin-right: 10px;
+}
+
+.navbar-brand span[b-4bzassfquk] {
+    position: absolute;
+    left: 0; /* Change 'right' to 'left' */
+    color: white;
+}
+
+.nav-menu-container[b-4bzassfquk]::-webkit-scrollbar {
+    /* Width of vertical scroll bar */
+    width: 8px;
+    /* Height of horizontal scroll bar */
+    height: 10px;
+}
+
+.nav-menu-container[b-4bzassfquk]::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+}
+
+.oi[b-4bzassfquk] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-4bzassfquk] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-item:first-of-type[b-4bzassfquk] {
+    padding-top: 1rem;
+}
+
+.nav-item:last-of-type[b-4bzassfquk] {
+    padding-bottom: 1rem;
+}
+
+.nav-item[b-4bzassfquk]  a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.nav-item[b-4bzassfquk]  a.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+.nav-item[b-4bzassfquk]  a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.nav-item-flex[b-4bzassfquk] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-item-flex:first-of-type[b-4bzassfquk] {
+    padding-top: 1rem;
+}
+
+.nav-item-flex:last-of-type[b-4bzassfquk] {
+    padding-bottom: 1rem;
+}
+
+.nav-item-flex[b-4bzassfquk]  a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.nav-item-flex[b-4bzassfquk]  a.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+.nav-item-flex[b-4bzassfquk]  a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-4bzassfquk] {
+        display: none;
+    }
+
+    .collapse[b-4bzassfquk] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+
+    .nav-menu-container[b-4bzassfquk] {
+        height: calc(100vh - 3.5rem); /* Adjust the height as needed */
+        overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+    }
+}
+
+@media (max-width: 640px) {
+    .nav-item-flex[b-4bzassfquk] {
+        display: none;
+    }
+}
+

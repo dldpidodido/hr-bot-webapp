@@ -181,6 +181,10 @@
       "PackagePath": "staticwebassets\\misc\\en-US google.png"
     },
     {
+      "Id": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\en-US linkin.gif",
+      "PackagePath": "staticwebassets\\misc\\en-US linkin.gif"
+    },
+    {
       "Id": "F:\\WebApp\\hrbot-web-app\\hr-bot-webapp v2\\wwwroot\\misc\\jobsai.png",
       "PackagePath": "staticwebassets\\misc\\jobsai.png"
     },

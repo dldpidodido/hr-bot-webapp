@@ -16,10 +16,17 @@ window.readFileContent = function (inputElement) {
                     doc.getPage(1).then(function (page) {
                         page.getTextContent().then(function (content) {
                             let text = '';
+                            let fp = '';
                             for (let item of content.items) {
-                                text += item.str;
+                                text += item.str + '\n';
                             }
-                            resolve(text);
+                            const skills = extractTopSkills(text);
+                            console.log(skills);
+
+                            for (let d of skills) {
+                                fp += d + '\n';
+                            }
+                            resolve(fp);
                         });
                     });
                 });
@@ -34,4 +41,22 @@ window.readFileContent = function (inputElement) {
         reader.onerror = reject;
         reader.readAsArrayBuffer(file);
     });
+}
+
+function extractTopSkills(text) {
+    const skillsStart = text.indexOf("Top Skills");
+    const experienceStart = text.indexOf("Experience");
+    const educationStart = text.indexOf("Education");
+
+    // Determine the end of the skills section by finding the next section header
+    let skillsEnd = Math.min(experienceStart, educationStart);
+    if (experienceStart === -1) skillsEnd = educationStart;
+    if (educationStart === -1) skillsEnd = experienceStart;
+
+    if (skillsStart !== -1 && skillsEnd !== -1) {
+        const skillsText = text.substring(skillsStart + "Top Skills".length, skillsEnd).trim();
+        const skillsArray = skillsText.split('\n').filter(skill => skill.trim() !== '');
+        return skillsArray;
+    }
+    return [];
 }
