@@ -35,7 +35,7 @@
 
         <article class="content px-4">
             @Body
-        </article>
+        </article>  
         <Footer />
     </main>
 </div>
@@ -56,7 +56,7 @@
 
     private EventCallback<FocusEventArgs> OnInputUnselectedCallback => EventCallback.Factory.Create<FocusEventArgs>(this, OnInputUnselected);
 
-    @inject NavigationManager NavigationManager
+    @inject NavigationManager NavigationManager;
 
 
     private async Task OnInputUnselected(FocusEventArgs e)
@@ -78,7 +78,7 @@
 
     private async Task HandleInputAsync(string inputJob)
     {
-        List<JobInitService.JobInit> jobInits = new List<JobInitService.JobInit>();
+        var jobInits = new List<JobInitService.JobInit>();
         jobInits.Add(new JobInitService.JobInit { refTitle = inputJob });
 
         await localStorage.RemoveItemAsync("JobInits");
@@ -93,7 +93,6 @@
 
     private void SelectLocation(string locationName)
     {
-        dropdownValue = locationName;
         dropdownValue = locationName; // Update the last entered value as well
         StateHasChanged(); // Trigger a re-render
     }
